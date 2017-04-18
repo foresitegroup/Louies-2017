@@ -48,6 +48,153 @@ H2 {
   margin: 0 0 0.5em;
 }
 
+INPUT[type="text"],
+INPUT[type="email"],
+INPUT[type="tel"],
+TEXTAREA {
+  outline: 0;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.4em 1em;
+  background: #0066FF;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+}
+
+TEXTAREA {
+  padding: 0.9em 1em;
+  height: 7em;
+}
+
+INPUT::-webkit-input-placeholder { color: #FFFFFF; opacity: 1; }
+INPUT:-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 4-18 */
+INPUT::-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 19+ */
+INPUT:-ms-input-placeholder { color: #FFFFFF; opacity: 1; } /* IE 10+ */
+TEXTAREA::-webkit-input-placeholder { color: #FFFFFF; opacity: 1; }
+TEXTAREA:-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 4-18 */
+TEXTAREA::-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 19+ */
+TEXTAREA:-ms-input-placeholder { color: #FFFFFF; opacity: 1; } /* IE 10+ */
+
+INPUT:focus::-webkit-input-placeholder { color: transparent; }
+INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+TEXTAREA:focus::-webkit-input-placeholder { color: transparent; }
+TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+INPUT[type="checkbox"] {
+  display: none;
+}
+
+INPUT[type="checkbox"] + LABEL {
+  display: inline-block;
+  margin-right: 1.5em;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+INPUT[type="checkbox"] + LABEL:before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'FontAwesome';
+  content: "\f096";
+  color: #FFFFFF;
+}
+
+INPUT[type="checkbox"]:checked + LABEL:before {
+  content: "\f046";
+}
+
+INPUT[type="submit"] {
+  outline: none;
+  border: 5px solid #0066FF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0.8em 1.1em 0.6em 1.4em;
+  background: transparent;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+INPUT[type="submit"]:hover {
+  color: #BBD66C;
+  border-color: #BBD66C;
+}
+
+/* BEGIN modal css */
+html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blocker {
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1000000;
+  background: rgba(0,0,0,0.15);
+}
+
+.modal {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal A.close-modal {
+  position: absolute;
+  top: -2.5em;
+  right: 1.8em;
+  display: block;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.modal A.close-modal:after {
+  content: "\00d7";
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  right: -0.9em;
+  transform: translateY(-55%)
+}
+/* END modal css */
+
 .site-width {
   width: 1200px;
   margin: 0 auto;
@@ -271,6 +418,58 @@ H2 {
   transform: translate(-50%,-50%);
 }
 
+#newsletter,
+#sponsor {
+  display: none;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 65px 90px;
+  background: #04043B;
+  color: #005CE5;
+}
+
+#newsletter H2,
+#sponsor H2 {
+  margin: 0 0 0.3em;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+#newsletter #newsletter-form-messages,
+#sponsor #sponsor-form-messages {
+  margin: 0.9em 0;
+  min-height: 1em;
+  line-height: 1em;
+  color: #9D1C30;
+}
+
+#newsletter #email { width: calc(100% - 160px); }
+#newsletter INPUT[type="submit"] { float: right; }
+
+#newsletter .close-wrap {
+  padding-top: 2em;
+  text-align: center;
+}
+
+#newsletter A:link,
+#newsletter A:visited {
+  color: #005CE5;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+#newsletter A:hover,
+#newsletter A:active {
+  color: #FFFFFF;
+}
+
 .video-banner {
   position: relative;
   width: 100%;
@@ -465,11 +664,96 @@ H2 {
   margin-bottom: 0.5em;
 }
 
-.home-logos {
-  padding: 4em 0;
+.home-sponsors {
+  padding: 4.5em 0 3.5em;
   background: #000038;
   color: #0066FF;
+  text-align: center;
 }
+
+.home-sponsors-slider {
+  margin-bottom: 3.5em;
+}
+
+.home-sponsor {
+  width: 20%;
+  min-height: 115px !important;
+  line-height: 1em;
+  outline: 0;
+  position: relative;
+}
+
+.home-sponsor IMG {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 69%;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+}
+
+.home-sponsors A:link,
+.home-sponsors A:visited {
+  color: #0066FF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+  margin-right: 1em;
+  position: relative;
+}
+
+.home-sponsors A:after {
+  font-family: 'FontAwesome';
+  content: '\f061';
+  position: absolute;
+  right: -1.8em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home-sponsors A:hover,
+.home-sponsors A:active {
+  color: #FFFFFF;
+}
+
+#sponsor-form INPUT[type="text"],
+#sponsor-form INPUT[type="email"],
+#sponsor-form INPUT[type="tel"],
+#sponsor-form TEXTAREA {
+  margin-bottom: 2em;
+}
+
+#sponsor-form #name,
+#sponsor-form #email {
+  float: left;
+  width: 48%;
+}
+
+#sponsor-form #organization,
+#sponsor-form #phone {
+  float: right;
+  width: 48%;
+}
+
+#sponsor-form .header {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  padding-bottom: 0.5em;
+}
+
+#sponsor-form TEXTAREA {
+  margin-top: 2em;
+}
+
+
 
 
 

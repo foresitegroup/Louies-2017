@@ -55,10 +55,113 @@ include "header.php";
   </div>
 </div>
 
-<div class="home-logos">
-  <div class="site-width">
-    LOGOS GO HERE
+<link rel="stylesheet" href="inc/slick/slick.css">
+<script type="text/javascript" src="inc/slick/slick.min.js"></script>
+<script type="text/javascript" src="inc/slick/slick.init.home-sponsor-slider.js"></script>
+
+<div class="home-sponsors">
+  <div class="home-sponsors-slider">
+    <div class="home-sponsor"><img src="images/logo-chw.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-mount-gay.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-mke-ale-house.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-harken.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-boelter.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-mke-yacht-club.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-ssyc.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-mke-brewing-co.png" alt=""></div>
+    <div class="home-sponsor"><img src="images/logo-foresite.png" alt=""></div>
   </div>
+
+  <a href="#sponsor">BECOME A SPONSOR</a>
+</div>
+
+<div id="sponsor" class="site-width-small">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var form = $('#sponsor-form');
+      var formMessages = $('#sponsor-form-messages');
+      $(form).submit(function(event) {
+        event.preventDefault();
+        
+        function formValidation() {
+          if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
+          return true;
+        }
+        
+        if (formValidation()) {
+          var formData = $(form).serialize();
+          formData += '&src=ajax';
+
+          $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+          })
+          .done(function(response) {
+            $(formMessages).html(response);
+            $('#email').val('');
+          })
+          .fail(function(data) {
+            if (data.responseText !== '') {
+              $(formMessages).html(data.responseText);
+            } else {
+              $(formMessages).text('Oops! An error occured and your message could not be sent.');
+            }
+          });
+        }
+      });
+    });
+  </script>
+
+  <?php
+  // Settings for randomizing form field names
+  $ip = $_SERVER['REMOTE_ADDR'];
+  $timestamp = time();
+  $salt = "LouiesSponsorForm";
+  ?>
+
+  <h2>BECOME A SPONSOR</h2>
+
+  <div id="sponsor-form-messages"></div>
+
+  <form action="form-sponsor.php" method="POST" id="sponsor-form">
+    <div>
+      <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="NAME">
+
+      <input type="text" name="<?php echo md5("organization" . $ip . $salt . $timestamp); ?>" id="organization" placeholder="ORGANIZATION / COMPANY">
+
+      <div style="clear: both;"></div>
+
+      <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="EMAIL ADDRESS">
+
+      <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="PHONE">
+
+      <div style="clear: both;"></div>
+
+      <div class="header">WE ARE INTERESTED IN:</div>
+      <input type="checkbox" name="interest[]" id="int-money" value="Donating money">
+      <label for="int-money">Donating money</label>
+
+      <input type="checkbox" name="interest[]" id="int-time" value="Donating time">
+      <label for="int-time">Donating time</label>
+
+      <input type="checkbox" name="interest[]" id="int-raffle" value="Contributing raffle item(s)">
+      <label for="int-raffle">Contributing raffle item(s)</label>
+
+      <input type="checkbox" name="interest[]" id="int-other" value="Other">
+      <label for="int-other">Other</label>
+
+      <br>
+
+      <textarea name="comment" id="comment" placeholder="COMMENT"></textarea>
+
+      <input type="submit" name="submit" value="SUBMIT">
+
+      <input type="text" name="confirmationCAP" style="display: none;">
+      <input type="hidden" name="ip" value="<?php echo $ip; ?>">
+      <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
+    </div>
+  </form>
 </div>
 
 <?php include "footer.php"; ?>

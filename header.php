@@ -24,6 +24,7 @@ $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
 
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.modal.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -32,6 +33,11 @@ $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
           $(".sticky-spacer").toggleClass("sticky", direction == "down");
           $(".llr-header").toggleClass("sticky", direction == "down");
         },{offset: -105});
+
+        $('a[href="#sponsor"],a[href="#newsletter"]').click(function(event) {
+          event.preventDefault();
+          $(this).modal({ fadeDuration: 200, fadeDelay: 0 });
+        });
       });
     </script>
   </head>
