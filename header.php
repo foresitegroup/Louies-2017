@@ -1,6 +1,6 @@
 <?php
 $GLOBALS['eventdate'] = strtotime('23 September 2017 12:00');
-$GLOBALS['eventnum'] = "19<sup>TH</sup>";
+$GLOBALS['eventnum'] = "19<sup>th</sup>";
 $GLOBALS['kickoff'] = strtotime('23 May 2017 17:30');
 $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
 ?>

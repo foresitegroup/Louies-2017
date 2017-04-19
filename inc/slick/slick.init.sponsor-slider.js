@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.home-sponsors-slider').slick({
+  $('.sponsors-slider').slick({
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,

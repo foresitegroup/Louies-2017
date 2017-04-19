@@ -2,6 +2,14 @@
 include "header.php";
 ?>
 
+<link rel="stylesheet" href="inc/swipebox/swipebox.css">
+<script type="text/javascript" src="inc/swipebox/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".swipebox-video").swipebox({ autoplayVideos: true, videoMaxWidth : 1200 });
+  });
+</script>
+
 <div class="video-banner">
   <video playsinline autoplay muted loop poster="images/home-banner.jpg">
     <source src="images/home-banner.mp4" type="video/mp4">
@@ -15,7 +23,7 @@ include "header.php";
     <img src="images/waves-white.png" alt="" class="waves">
 
     <div class="video-header-buttons">
-      <a href="#">PLAY VIDEO <div class="play"></div></a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="swipebox-video">PLAY VIDEO <div class="play"></div></a>
       <a href="register.php" class="button">REGISTER NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
     </div>
   </div>
@@ -57,19 +65,19 @@ include "header.php";
 
 <link rel="stylesheet" href="inc/slick/slick.css">
 <script type="text/javascript" src="inc/slick/slick.min.js"></script>
-<script type="text/javascript" src="inc/slick/slick.init.home-sponsor-slider.js"></script>
+<script type="text/javascript" src="inc/slick/slick.init.sponsor-slider.js"></script>
 
-<div class="home-sponsors">
-  <div class="home-sponsors-slider">
-    <div class="home-sponsor"><img src="images/logo-chw.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-mount-gay.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-mke-ale-house.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-harken.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-boelter.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-mke-yacht-club.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-ssyc.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-mke-brewing-co.png" alt=""></div>
-    <div class="home-sponsor"><img src="images/logo-foresite.png" alt=""></div>
+<div class="sponsors">
+  <div class="sponsors-slider">
+    <div class="sponsor"><img src="images/logo-chw.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-mount-gay.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-mke-ale-house.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-harken.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-boelter.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-mke-yacht-club.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-ssyc.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-mke-brewing-co.png" alt=""></div>
+    <div class="sponsor"><img src="images/logo-foresite.png" alt=""></div>
   </div>
 
   <a href="#sponsor">BECOME A SPONSOR</a>
@@ -84,7 +92,10 @@ include "header.php";
         event.preventDefault();
         
         function formValidation() {
+          if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
           if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
+          if ($('#phone').val() === '') { alert('Phone required.'); $('#phone').focus(); return false; }
+          if ($('#comment').val() === '') { alert('Comment required.'); $('#comment').focus(); return false; }
           return true;
         }
         
