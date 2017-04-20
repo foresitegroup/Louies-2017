@@ -3,6 +3,13 @@ $GLOBALS['eventdate'] = strtotime('23 September 2017 12:00');
 $GLOBALS['eventnum'] = "19<sup>th</sup>";
 $GLOBALS['kickoff'] = strtotime('23 May 2017 17:30');
 $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
+
+function email($address, $name="") {
+  $email = "";
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +26,7 @@ $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
     <meta name="keywords" content="">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,800,900|Open+Sans:700|Rubik:700,900" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="inc/icons.css?<?php echo filemtime('inc/icons.css'); ?>">
     <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>

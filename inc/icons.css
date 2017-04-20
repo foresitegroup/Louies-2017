@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Louies2017';
+  src:  url('fonts/Louies2017.eot?c8kkhr');
+  src:  url('fonts/Louies2017.eot?c8kkhr#iefix') format('embedded-opentype'),
+    url('fonts/Louies2017.ttf?c8kkhr') format('truetype'),
+    url('fonts/Louies2017.woff?c8kkhr') format('woff'),
+    url('fonts/Louies2017.svg?c8kkhr#Louies2017') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fg {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Louies2017' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fg-facebook:before {
+  content: "\e901";
+}
+.fg-twitter:before {
+  content: "\e902";
+}
+.fg-instagram:before {
+  content: "\e903";
+}
+.fg-youtube:before {
+  content: "\e904";
+}
+.fg-hamburger-menu:before {
+  content: "\e911";
+}
+.fg-close:before {
+  content: "\e912";
+}
+.fg-play-button:before {
+  content: "\e921";
+}
+.fg-arrow-left:before {
+  content: "\e922";
+}
+.fg-arrow-right:before {
+  content: "\e923";
+}
+.fg-arrow-up:before {
+  content: "\e924";
+}
+.fg-arrow-down:before {
+  content: "\e925";
+}
+.fg-file:before {
+  content: "\e926";
+}
+.fg-checkbox:before {
+  content: "\e927";
+}
+.fg-checkbox-filled:before {
+  content: "\e928";
+}
+.fg-waves:before {
+  content: "\e971";
+}
+.fg-calendar:before {
+  content: "\e972";
+}
+.fg-trophy:before {
+  content: "\e973";
+}
+.fg-stopwatch:before {
+  content: "\e974";
+}
+.fg-boat:before {
+  content: "\e975";
+}
+.fg-anchor:before {
+  content: "\e976";
+}
+.fg-maggie-bersch-cup:before {
+  content: "\e981";
+}
+.fg-louies-last-cup:before {
+  content: "\e982";
+}
+.fg-flounder:before {
+  content: "\e983";
+}
+.fg-debbia:before {
+  content: "\e984";
+}
+.fg-cutlass:before {
+  content: "\e985";
+}
+.fg-ugliest-spinnaker:before {
+  content: "\e986";
+}
+.fg-flag .path1:before {
+  content: "\e987";
+  color: rgb(1, 1, 1);
+}
+.fg-flag .path2:before {
+  content: "\e989";
+  margin-left: -1.5927734375em;
+  color: rgb(1, 1, 1);
+}
+.fg-flag .path3:before {
+  content: "\e98a";
+  margin-left: -1.5927734375em;
+  color: rgb(1, 1, 1);
+}
+.fg-flag .path4:before {
+  content: "\e98b";
+  margin-left: -1.5927734375em;
+  color: rgb(1, 1, 1);
+}
+.fg-flag .path5:before {
+  content: "\e98c";
+  margin-left: -1.5927734375em;
+  color: rgb(14, 17, 54);
+}
+.fg-flag .path6:before {
+  content: "\e98d";
+  margin-left: -1.5927734375em;
+  color: rgb(14, 17, 54);
+}
+.fg-flag .path7:before {
+  content: "\e98e";
+  margin-left: -1.5927734375em;
+  color: rgb(14, 17, 54);
+}
+.fg-flag .path8:before {
+  content: "\e98f";
+  margin-left: -1.5927734375em;
+  color: rgb(14, 17, 54);
+}
+.fg-trophy-burst:before {
+  content: "\e988";
+}
+

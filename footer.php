@@ -22,10 +22,10 @@
         </ul>
 
         <div class="social">
-          <a href="http://www.facebook.com/LouiesLastRegatta"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="http://twitter.com/llregatta"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://instagram.com/louieslast"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/channel/UCTqEGfa9SrdH_9lX22aKaqQ"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          <a href="http://www.facebook.com/LouiesLastRegatta"><i class="fg fg-facebook"></i></a>
+          <a href="http://twitter.com/llregatta"><i class="fg fg-twitter"></i></a>
+          <a href="https://instagram.com/louieslast"><i class="fg fg-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCTqEGfa9SrdH_9lX22aKaqQ"><i class="fg fg-youtube"></i></a>
         </div>
       </div>
     </div>

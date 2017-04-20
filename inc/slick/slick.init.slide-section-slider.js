@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.reg-slider').slick({
+  $('.slide-section-slider').slick({
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,

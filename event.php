@@ -1,6 +1,27 @@
 <?php
+$PageTitle = "Event";
 include "header.php";
 ?>
+
+<div class="banner">
+  <div class="site-width">
+    <h3><?php echo date("F j, Y", $GLOBALS['eventdate']); ?>, High Noon</h3>
+
+    <h2>Louie's Last Regatta</h2>
+
+    <div class="banner-text">
+      Louie's is one of the nation's largest fund raising regattas on Lake Michigan in Milwaukee, WI. It is an open to all, fun oriented weekend of sailing and fundraising for Children's Hospital of Wisconsin that includes pre-race fundraising by boat, race and post-race dock side party.
+    </div>
+
+    LINKS HERE
+  </div>
+</div>
+
+<div id="dates-and-times">
+  <div class="site-width">
+    DATES AND TIMES HERE
+  </div>
+</div>
 
 <link rel="stylesheet" href="inc/swipebox/swipebox.css">
 <script type="text/javascript" src="inc/swipebox/jquery.swipebox.min.js"></script>
@@ -10,61 +31,52 @@ include "header.php";
   });
 </script>
 
-<div class="video-banner">
-  <video playsinline autoplay muted loop poster="images/home-banner.jpg">
-    <source src="images/home-banner.mp4" type="video/mp4">
-  </video>
+<div class="slide-section" id="louies-story">
+  <link rel="stylesheet" href="inc/slick/slick.css">
+  <script type="text/javascript" src="inc/slick/slick.min.js"></script>
+  <script type="text/javascript" src="inc/slick/slick.init.slide-section-slider.js"></script>
+
+  <div class="slide-section-slider">
+    <div style="background-image: url(images/register-slider1.jpg)"></div>
+    <div style="background-image: url(images/register-slider2.jpg)"></div>
+    <div style="background-image: url(images/register-slider3.jpg)"></div>
+    <div style="background-image: url(images/register-slider4.jpg)"></div>
+    <div style="background-image: url(images/register-slider5.jpg)"></div>
+    <div style="background-image: url(images/register-slider6.jpg)"></div>
+  </div>
+
+  <i class="fg fg-waves"></i>
 
   <div class="site-width">
-    LOUIE'S <?php echo $GLOBALS['eventnum']; ?> LAST REGATTA <?php echo date("Y", $GLOBALS['eventdate']); ?>
+    <div class="slide-section-text">
+      <h2>LOUIE'S LAST</h2>
 
-    <h1><?php echo date("F j", $GLOBALS['eventdate']); ?> AT HIGH NOON</h1>
-    
-    <i class="fg fg-waves"></i>
+      As one of the nation's largest fund raising regattas, Louies Last Regatta is an open to all, year end, fun oriented, annual Sailing Regatta on Lake Michigan, founded in 1999 by a group of Milwaukee Sailors who wanted one last sail before the end of the sailing season. To make the regatta more "attractive", the sailors turned the race into a charity event, raising roughly $900 in the first year.<br>
+      <br>
 
-    <div class="video-header-buttons">
+      As time passed, popularity grew, and more sponsors and volunteers stepped forward the event grew from a few boats to  attract  hundreds of boats and thousands of participants to Milwaukee on a yearly basis.<br>
+      <br>
+
+      Louie's Last Regatta has gained national attention being named one of the top ten sailing events in the country and to date raising over $1 Million Dollars for Childrens Hospital of Wisconsin.<br>
+      <br>
+
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="swipebox-video">PLAY VIDEO</a>
-      <a href="register.php" class="button">REGISTER NOW</a>
     </div>
   </div>
 </div>
 
-<div class="home-dates">
+<div id="awards">
   <div class="site-width">
-    <div class="one-fourth">
-      <div class="home-dates-number"></div>
-      <div class="home-dates-date">Important Dates <i class="fg fg-arrow-right"></i></div>
-      <i class="fg fg-waves"></i>
-    </div>
-
-    <div class="one-fourth">
-      <div class="home-dates-number">01.</div>
-      <div class="home-dates-date"><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['kickoff']); ?></div>
-      <div class="home-dates-event">KICKOFF PARTY</div>
-      MKE Ale House<br>
-      At <?php echo date("g:i A", $GLOBALS['kickoff']); ?>
-    </div>
-
-    <div class="one-fourth">
-      <div class="home-dates-number">02.</div>
-      <div class="home-dates-date"><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['skippers']); ?></div>
-      <div class="home-dates-event">SKIPPERS MEETING</div>
-      MKE Ale House<br>
-      At <?php echo date("g:i A", $GLOBALS['skippers']); ?>
-    </div>
-
-    <div class="one-fourth">
-      <div class="home-dates-number">03.</div>
-      <div class="home-dates-date"><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['eventdate']); ?></div>
-      <div class="home-dates-event">THE REGATTA</div>
-      Lake Michigan off the Main Gap<br>
-      At High Noon
-    </div>
+    AWARDS HERE
   </div>
 </div>
 
-<link rel="stylesheet" href="inc/slick/slick.css">
-<script type="text/javascript" src="inc/slick/slick.min.js"></script>
+<div id="results">
+  <div class="site-width">
+    RESULTS HERE
+  </div>
+</div>
+
 <script type="text/javascript" src="inc/slick/slick.init.sponsor-slider.js"></script>
 
 <div class="sponsors">
@@ -90,7 +102,7 @@ include "header.php";
       var formMessages = $('#sponsor-form-messages');
       $(form).submit(function(event) {
         event.preventDefault();
-        
+
         function formValidation() {
           if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
           if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
@@ -98,7 +110,7 @@ include "header.php";
           if ($('#comment').val() === '') { alert('Comment required.'); $('#comment').focus(); return false; }
           return true;
         }
-        
+
         if (formValidation()) {
           var formData = $(form).serialize();
           formData += '&src=ajax';
