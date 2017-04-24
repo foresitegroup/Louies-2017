@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Louies2017';
-  src:  url('fonts/Louies2017.eot?c8kkhr');
-  src:  url('fonts/Louies2017.eot?c8kkhr#iefix') format('embedded-opentype'),
-    url('fonts/Louies2017.ttf?c8kkhr') format('truetype'),
-    url('fonts/Louies2017.woff?c8kkhr') format('woff'),
-    url('fonts/Louies2017.svg?c8kkhr#Louies2017') format('svg');
+  src:  url('fonts/Louies2017.eot?eg64vi');
+  src:  url('fonts/Louies2017.eot?eg64vi#iefix') format('embedded-opentype'),
+    url('fonts/Louies2017.ttf?eg64vi') format('truetype'),
+    url('fonts/Louies2017.woff?eg64vi') format('woff'),
+    url('fonts/Louies2017.svg?eg64vi#Louies2017') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -102,44 +102,8 @@
 .fg-ugliest-spinnaker:before {
   content: "\e986";
 }
-.fg-flag .path1:before {
+.fg-louies-flag:before {
   content: "\e987";
-  color: rgb(1, 1, 1);
-}
-.fg-flag .path2:before {
-  content: "\e989";
-  margin-left: -1.5927734375em;
-  color: rgb(1, 1, 1);
-}
-.fg-flag .path3:before {
-  content: "\e98a";
-  margin-left: -1.5927734375em;
-  color: rgb(1, 1, 1);
-}
-.fg-flag .path4:before {
-  content: "\e98b";
-  margin-left: -1.5927734375em;
-  color: rgb(1, 1, 1);
-}
-.fg-flag .path5:before {
-  content: "\e98c";
-  margin-left: -1.5927734375em;
-  color: rgb(14, 17, 54);
-}
-.fg-flag .path6:before {
-  content: "\e98d";
-  margin-left: -1.5927734375em;
-  color: rgb(14, 17, 54);
-}
-.fg-flag .path7:before {
-  content: "\e98e";
-  margin-left: -1.5927734375em;
-  color: rgb(14, 17, 54);
-}
-.fg-flag .path8:before {
-  content: "\e98f";
-  margin-left: -1.5927734375em;
-  color: rgb(14, 17, 54);
 }
 .fg-trophy-burst:before {
   content: "\e988";

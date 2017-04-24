@@ -38,6 +38,16 @@ A:hover, A:active {
   text-decoration: none;
 }
 
+A.arrow:after {
+  font-family: "Louies2017";
+  content: "\e923";
+  font-size: 90%;
+  font-weight: bold;
+  padding-left: 0.5em;
+  position: relative;
+  top: 1px;
+}
+
 H1 {
   font-size: 170%;
   margin: 0 0 0.5em;
@@ -1154,6 +1164,282 @@ A.button.hollow:hover:after {
   border-color: #FF3300;
 }
 
+.event-links { margin-top: 4em; }
+
+.event-links A:link,
+.event-links A:visited {
+  color: #000038;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  margin: 0 4%;
+  white-space: nowrap;
+}
+
+.event-links A:hover,
+.event-links A:active {
+  color: #9D1C30;
+}
+
+#dates-and-times {
+  padding: 6em 0 2em;
+  background: #9D1C30;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.6em;
+  letter-spacing: 0.1em;
+}
+
+#dates-and-times .sidebar {
+  float: left;
+  width: 150px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.8em;
+  letter-spacing: 0.3em;
+  position: relative;
+}
+
+#dates-and-times .sidebar:after {
+  font-family: "Louies2017";
+  content: "\e923";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #370000;
+  font-size: 95%;
+  font-size: bold;
+}
+
+#dates-and-times .sidebar .fg-waves {
+  margin-top: 0.6em;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #370000;
+}
+
+#dates-and-times .dats {
+  float: right;
+  width: calc(100% - 190px);
+}
+
+#dates-and-times .dat {
+  display: inline-block;
+  vertical-align: top;
+  width: 28.43%;
+  margin: 0 6.9% 4em 0;
+}
+
+#dates-and-times .dat:nth-of-type(3n+3) { margin-right: 0; }
+
+#dates-and-times .dat H2 {
+  margin: 0 0 0.3em;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#dates-and-times .dat H3 {
+  margin: 0 0 0.7em;
+  color: #330000;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#dates-and-times .dat H3 SPAN { display: inline-block; width: 0.4em; }
+
+#dates-and-times .dat H3 SUP { letter-spacing: 0.1em; }
+
+#awards {
+  padding: 7em 0 5em;
+  background: #0066FF;
+  color: #000038;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+#awards H2 {
+  margin: 0 0 0.5em;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 67px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+#awards .fg-waves {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+#awards .trophy { position: relative; margin-bottom: 6em; }
+
+#awards .trophy-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 155px;
+  margin-right: 21px;
+  font-weight: bold;
+  font-size: 69px;
+  text-align: center;
+}
+
+#awards .maggie .trophy-image,
+#awards .louies .trophy-image,
+#awards .cutlass .trophy-image { height: 175px; font-size: 175px; }
+#awards .debbia .trophy-image { height: 145px; font-size: 145px; }
+#awards .spinnaker .trophy-image { height: 162px; font-size: 162px; }
+#awards .flag .trophy-image { height: 88px; font-size: 88px; }
+
+#awards .header .trophy-image { width: 0; margin-right: 0; }
+#awards .header .trophy-text { width: 100%; }
+
+#awards .trophy-text {
+  width: calc(100% - 180px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#awards .trophy-text H3 {
+  margin: 0 0 0.25em;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+#results {
+  padding: 6em 0;
+}
+
+#results .results-sidebar {
+  float: left;
+  width: 360px;
+  color: #000038;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1.1em;
+  letter-spacing: 0.2em;
+}
+
+#results .results-sidebar A:link,
+#results .results-sidebar A:visited {
+  color: #555555;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+}
+
+#results .results-sidebar A:hover,
+#results .results-sidebar A:active {
+  color: #000038;
+}
+
+#results .results-sidebar .fg {
+  display: inline-block;
+  margin-top: 30px;
+  color: #0066FF;
+  font-size: 199px;
+}
+
+#results .results {
+  float: right;
+  width: calc(100% - 420px);
+}
+
+.slick-slide { outline: 0; }
+
+.results-slider A.slick-prev,
+.results-slider A.slick-next {
+  position: absolute;
+  z-index: 10;
+  top: 13px;
+  left: -100px;
+  font-size: 14px;
+  color: #0066FF;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.results-slider A.slick-next {
+  left: 300px;
+}
+
+.results-slider A.slick-prev .fg,
+.results-slider A.slick-next .fg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-weight: bold;
+}
+
+.results-slider {
+  width: calc(100% - 100px);
+  margin-left: 100px;
+  color: #0066FF;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+
+.results-slider H2 {
+  margin: 0 0 0.5em;
+  color: #000038;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 0.8em;
+  letter-spacing: 0.2em;
+  text-decoration: underline;
+}
+
+.results-slider .arrow {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 3em;
+}
+
+.results-slider H3 {
+  margin: 0 0 0.2em;
+  color: #000038;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.1em;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+
+
+
+
 
 
 
@@ -1179,10 +1465,16 @@ A.button.hollow:hover:after {
 
   .slide-section-text H2 { font-size: 65px; }
   .giving .slide-section-text H2 { font-size: 88px; }
+
+  #dates-and-times .dat H3 SPAN { display: block; width: 0; }
 }
 
 @media only screen and (max-width: 1180px) {
   .home-dates-date SPAN { display: block; width: 0; }
+}
+
+@media only screen and (max-width: 1125px) {
+  #dates-and-times .dat { margin-right: 6.5%; }
 }
 
 @media only screen and (max-width: 1115px) {
@@ -1208,7 +1500,7 @@ A.button.hollow:hover:after {
 
   .home-dates .one-fourth:first-of-type .home-dates-date { margin-bottom: 0; }
 
-  .home-dates-date .fg-arrow-right:before { content: "\e925"; }
+  .home-dates-date .fg-arrow-right:before { display: inline-block; transform: rotate(90deg); font-size: 85%; }
 }
 
 @media only screen and (max-width: 1055px) {
@@ -1246,6 +1538,10 @@ A.button.hollow:hover:after {
 
 @media only screen and (max-width: 845px) {
   .home-dates .one-fourth { margin-right: 4.4%; }
+
+  #dates-and-times .dat,
+  #dates-and-times .dat:nth-of-type(3n+3) { width: 45%; margin-right: 9%; }
+  #dates-and-times .dat:nth-of-type(2n+2) { margin-right: 0; }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1332,6 +1628,9 @@ A.button.hollow:hover:after {
   .giving-section { padding: 4em 0; }
   .giving-section .column { width: 100%; margin: 3em 0; }
   .giving-section A.button:link, .giving-section A.button:visited { margin-top: 0; }
+
+  #results .results-sidebar { width: 30%; font-size: 38px; }
+  #results .results { width: 66%; }
 }
 
 @media only screen and (max-width: 670px) {
@@ -1366,6 +1665,17 @@ A.button.hollow:hover:after {
   .slide-section-text { float: none; width: 100%; }
   .slide-section-text H2 { font-size: 45px; }
   .giving .slide-section-text H2 { font-size: 65px; }
+
+  #dates-and-times .dat,
+  #dates-and-times .dat:nth-of-type(3n+3),
+  #dates-and-times .dat:nth-of-type(2n+2) { width: 100%; margin-right: 0; }
+  #dates-and-times .dat H3 SPAN { display: inline-block; width: 0.4em; }
+
+  #results .results-sidebar { float: none; width: 100%; font-size: 60px; margin-bottom: 0.5em; position: relative; }
+  #results .results { float: none; width: 100%; }
+  #results .results-sidebar .fg { font-size: 180px; margin-top: 0; position: absolute; top: 0; right: 0; z-index: -1; }
+
+  .results-slider A.slick-next { left: auto; right: 0; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1410,4 +1720,24 @@ A.button.hollow:hover:after {
 
   .slide-section-text H2 { font-size: 10.7vw; }
   .giving .slide-section-text H2 { font-size: 14vw; }
+
+  .banner-event H2 { font-size: 16vw; }
+
+  #dates-and-times .sidebar,
+  #dates-and-times .dats { float: none; width: 100%; }
+  #dates-and-times .sidebar { margin-bottom: 2em; }
+  #dates-and-times .sidebar:after { display: inline-block; transform: rotate(90deg); top: 0.2em; }
+
+  #awards .trophy-image { width: 100%; margin: 0 0 15px; }
+  #awards .trophy-text { width: 100%; }
+  
+  #results .results-sidebar { font-size: 15vw; }
+  #results .results-sidebar .fg { font-size: 120px; top: 50%; transform: translateY(-50%); }
+
+  .results-slider { width: 100%; margin: 0; }
+
+  .results-slider A.slick-prev, .results-slider A.slick-next { top: 0; left: 0; }
+  .results-slider A.slick-next { left: auto; right: 0; }
+
+  .results-slider H2 { margin-top: 0.75em; }
 }
