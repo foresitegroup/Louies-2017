@@ -4,6 +4,8 @@ $GLOBALS['eventnum'] = "19<sup>th</sup>";
 $GLOBALS['kickoff'] = strtotime('23 May 2017 17:30');
 $GLOBALS['skippers'] = strtotime('22 September 2017 17:30');
 
+if (!isset($TopDir)) $TopDir = "";
+
 function email($address, $name="") {
   $email = "";
   for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
@@ -19,19 +21,19 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
 
     <title>Louie's Last Regatta<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,800,900|Open+Sans:700|Rubik:700,900" rel="stylesheet">
-    <link rel="stylesheet" href="inc/icons.css?<?php echo filemtime('inc/icons.css'); ?>">
-    <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Open+Sans:600,700,800|Rubik:700,900" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/icons.css?<?php if ($TopDir == "") echo filemtime('inc/icons.css'); ?>">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
 
-    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.modal.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -53,17 +55,17 @@ function email($address, $name="") {
 
     <div class="llr-header<?php if (!isset($PageTitle)) echo " home"; ?>">
       <div class="site-width-small">
-        <a href="."><img src="images/logo.png" alt="Louie's Last Regatta" id="logo"></a>
+        <a href="."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Louie's Last Regatta" id="logo"></a>
 
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
         <div class="menu">
           <ul>
-            <li><a href="register.php">Register</a></li>
-            <li><a href="giving.php">Giving</a></li>
-            <li><a href="event.php">Event</a></li>
-            <li><a href="blog">Kids Log</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="<?php echo $TopDir; ?>register.php">Register</a></li>
+            <li><a href="<?php echo $TopDir; ?>giving.php">Giving</a></li>
+            <li><a href="<?php echo $TopDir; ?>event.php">Event</a></li>
+            <li><a href="<?php echo $TopDir; ?>kids-log">Kids Log</a></li>
+            <li><a href="<?php echo $TopDir; ?>contact.php">Contact</a></li>
           </ul>
         </div>
       </div>

@@ -1,6 +1,6 @@
     <div class="llr-footer">
       <div class="footer-text">
-        <img src="images/llr-icon.png" alt=""><br>
+        <img src="<?php echo $TopDir; ?>images/llr-icon.png" alt=""><br>
         <br>
         <br>
 
@@ -15,9 +15,9 @@
 
       <div class="site-width-small">
         <ul class="footer-menu">
-          <li><a href="register.php">REGISTER</a></li>
-          <li><a href="giving.php">GIVING</a></li>
-          <li><a href="event.php">EVENT</a></li>
+          <li><a href="<?php echo $TopDir; ?>register.php">REGISTER</a></li>
+          <li><a href="<?php echo $TopDir; ?>giving.php">GIVING</a></li>
+          <li><a href="<?php echo $TopDir; ?>event.php">EVENT</a></li>
           <li><a href="#newsletter">NEWSLETTER</a></li>
         </ul>
 
@@ -39,7 +39,7 @@
             event.preventDefault();
             
             function formValidation() {
-              if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
+              if ($('#newsletter-email').val() === '') { alert('Email address required.'); $('#newsletter-email').focus(); return false; }
               return true;
             }
             
@@ -54,7 +54,7 @@
               })
               .done(function(response) {
                 $(formMessages).html(response);
-                $('#email').val('');
+                $('#newsletter-email').val('');
               })
               .fail(function(data) {
                 if (data.responseText !== '') {
@@ -82,7 +82,7 @@
 
       <form action="form-newsletter.php" method="POST" id="newsletter-form">
         <div>
-          <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="EMAIL ADDRESS">
+          <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="newsletter-email" placeholder="EMAIL ADDRESS">
           <input type="submit" name="submit" value="SIGNUP">
 
           <input type="text" name="confirmationCAP" style="display: none;">

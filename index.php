@@ -23,7 +23,7 @@ include "header.php";
     <i class="fg fg-waves"></i>
 
     <div class="video-header-buttons">
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="swipebox-video">PLAY VIDEO</a>
+      <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
       <a href="register.php" class="button">REGISTER NOW</a>
     </div>
   </div>
@@ -110,6 +110,9 @@ include "header.php";
           })
           .done(function(response) {
             $(formMessages).html(response);
+            $(form).find('input:text, textarea').val('');
+            $('input:checkbox').removeAttr('checked');
+            $('#phone').val('');
             $('#email').val('');
           })
           .fail(function(data) {
@@ -164,7 +167,7 @@ include "header.php";
 
       <br>
 
-      <textarea name="comment" id="comment" placeholder="COMMENT"></textarea>
+      <textarea name="<?php echo md5("comment" . $ip . $salt . $timestamp); ?>" id="comment" placeholder="COMMENT"></textarea>
 
       <input type="submit" name="submit" value="SUBMIT">
 

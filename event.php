@@ -756,6 +756,9 @@ include "header.php";
           })
           .done(function(response) {
             $(formMessages).html(response);
+            $(form).find('input:text, textarea').val('');
+            $('input:checkbox').removeAttr('checked');
+            $('#phone').val('');
             $('#email').val('');
           })
           .fail(function(data) {
@@ -810,7 +813,7 @@ include "header.php";
 
       <br>
 
-      <textarea name="comment" id="comment" placeholder="COMMENT"></textarea>
+      <textarea name="<?php echo md5("comment" . $ip . $salt . $timestamp); ?>" id="comment" placeholder="COMMENT"></textarea>
 
       <input type="submit" name="submit" value="SUBMIT">
 

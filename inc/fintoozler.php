@@ -1,5 +1,5 @@
 <?php
 // MailChimp variables
-$apiKey = 'f570fcb3f9ea9a5413c8a303079f68c4-us4';
+$apiKey = '706336c6e86977d971d30f5c268c90eb-us4';
 $listId = '7615da59fd';
 ?>

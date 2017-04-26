@@ -1,2 +1,10 @@
 *.mp4
 pdf
+inc/fintoozler.php
+kids-log/*
+!kids-log/wp-content/
+kids-log/wp-content/*
+!kids-log/wp-content/themes/
+kids-log/wp-content/themes/*
+!kids-log/wp-content/themes/lifeproductions
+kids-log/wp-content/themes/lifeproductions/.DS_Store

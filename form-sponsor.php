@@ -14,7 +14,9 @@ if ($_POST['confirmationCAP'] == "") {
     $Headers = "From: Contact Form <sponsors@louieslast.org>\r\n";
 
     if ($_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "")
-    $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+    $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+
+    $Message = "";
     
     if ($_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "")
       $Message .= "Name: " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])];
@@ -25,11 +27,11 @@ if ($_POST['confirmationCAP'] == "") {
     if ($_POST[md5('phone' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "")
       $Message .= "\nPhone: " . $_POST[md5('phone' . $_POST['ip'] . $salt . $_POST['timestamp'])];
 
-    if ($_POST['interest'] != "")
+    if (isset($_POST['interest']))
       $Message .= "\n\nWe are interested in: " . implode(", ", $_POST['interest']);
 
-    if ($_POST['comment'] != "")
-      $Message .= "\n\nComment\n" . $_POST['comment'] . "\n";
+    if ($_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "")
+      $Message .= "\n\nComment\n" . $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";
 
     $Message = stripslashes($Message);
   
