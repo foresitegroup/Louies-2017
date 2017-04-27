@@ -299,6 +299,24 @@ A.button.hollow:hover:after {
   background: #0066FF;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+ 
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .site-width {
   width: 1200px;
   margin: 0 auto;
@@ -407,6 +425,7 @@ A.button.hollow:hover:after {
   border-radius: 2px;
 }
 
+.menu UL LI A.current:after,
 .menu UL LI:hover A:after {
   background: #0066FF;
 }
@@ -1882,6 +1901,273 @@ A#loadmore:hover,
 A#loadmore:active {
   background: #9D1C30;
 }
+
+.single-post { position: relative; }
+
+.single-post-banner {
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.single-post-content {
+  padding: 60px 0;
+  background: #FFFFFF;
+  transform: translateY(-100px);
+  margin-bottom: -100px;
+  border-radius: 3px;
+}
+
+.single-post-shadow {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);
+}
+
+.single-post-title {
+  margin: 0 auto 0.4em;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.single-post-meta {
+  margin: 0 0 7em;
+  color: #0066FF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.single-post P {
+  width: 1060px;
+  margin: 1.5em auto;
+  color: #555555;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.single-post UL {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.single-post BLOCKQUOTE P {
+  margin: 3em auto;
+  color: #000038;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.8em;
+}
+
+.single-post BLOCKQUOTE P:after {
+  font-family: "Louies2017";
+  content: "\e971";
+  color: #0066FF;
+  font-size: 31px;
+  line-height: 1em;
+  display: block;
+  margin-top: 0.75em;
+}
+
+.single-post IMG,
+.single-post .wp-caption {
+  max-width: 100%;
+  height: auto;
+}
+
+.single-post .wp-caption-text {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.single-post .alignleft {
+  float: left;
+  margin-right: 2.5em;
+}
+
+.single-post .alignright {
+  float: right;
+  margin-left: 2.5em;
+}
+
+.single-post .alignnone {
+  margin: 100px 0 50px;
+}
+
+.single-post-gallery {
+  margin: 100px 0 50px;
+}
+
+.single-post-gallery A {
+  float: left;
+  width: 100%;
+  margin-right: 3%;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 3em;
+  outline: 0;
+}
+
+.single-post-gallery A:before {
+  content: "";
+  display: block;
+  padding-top: 63.36%;
+}
+
+.single-post-gallery.gallery-columns-2 A { width: 48.50%; }
+.single-post-gallery.gallery-columns-3 A { width: 31.33%; }
+.single-post-gallery.gallery-columns-4 A { width: 22.75%; }
+.single-post-gallery.gallery-columns-5 A { width: 17.60%; }
+.single-post-gallery.gallery-columns-6 A { width: 14.16%; }
+.single-post-gallery.gallery-columns-7 A { width: 11.71%; }
+.single-post-gallery.gallery-columns-8 A { width: 9.875%; }
+.single-post-gallery.gallery-columns-9 A { width: 8.444%; }
+
+.single-post-gallery.gallery-columns-1 A,
+.single-post-gallery.gallery-columns-2 A:nth-of-type(even),
+.single-post-gallery.gallery-columns-3 A:nth-of-type(3n+3),
+.single-post-gallery.gallery-columns-4 A:nth-of-type(4n+4),
+.single-post-gallery.gallery-columns-5 A:nth-of-type(5n+5),
+.single-post-gallery.gallery-columns-6 A:nth-of-type(6n+6),
+.single-post-gallery.gallery-columns-7 A:nth-of-type(7n+7),
+.single-post-gallery.gallery-columns-8 A:nth-of-type(8n+8),
+.single-post-gallery.gallery-columns-9 A:nth-of-type(9n+9) {
+  margin-right: 0;
+}
+
+.single-post-content .video {
+  margin: 100px 0;
+}
+
+.single-post-share {
+  padding: 4em 0;
+}
+
+.single-post-share A:link,
+.single-post-share A:visited {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 1em;
+  padding: 6px 7px;
+  border-radius: 4px;
+  margin-right: 0.3em;
+}
+
+.single-post-share A.facebook { background: #3A579A; padding: 6px 10px; }
+.single-post-share A.twitter { background: #46C8F5; padding: 6px 10px; }
+.single-post-share A.linkedin { background: #1C7FAF; }
+.single-post-share A.pinterest { background: #CD2127; }
+.single-post-share A.googleplus { background: #E03E26; }
+
+.single-post-share A:hover,
+.single-post-share A:active {
+  color: #FFFFFF;
+  background: #0066FF;
+}
+
+.single-post-share A SPAN {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  padding: 0 4px;
+}
+
+.single-post-nav {
+  background: #000038;
+  position: relative;
+  padding: 4.8em 0;
+}
+
+.single-post-nav NAV H2 {
+  display: none;
+}
+
+.nav-links:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-links A:link,
+.nav-links A:visited {
+  float: left;
+  width: 45%;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+}
+
+.nav-links A.next:link,
+.nav-links A.next:visited {
+  float: right;
+  text-align: right;
+}
+
+.nav-links A:hover,
+.nav-links A:active {
+  color: #0066FF;
+}
+
+.nav-links A.prev:before,
+.nav-links A.next:before {
+  color: #0066FF;
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+  display: block;
+  margin-bottom: 0.5em;
+  content: "PREVIOUS:";
+}
+.nav-links A.next:before { content: "NEXT:"; }
+
+.nav-links A.home-link:before { content: ""; }
+
+.single-post-nav A.index-link:link,
+.single-post-nav A.index-link:visited {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 6;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1em;
+  color: #0066FF;
+}
+
+.single-post-nav A.index-link:hover,
+.single-post-nav A.index-link:active {
+  color: #FFFFFF;
+}
+
+
 
 
 

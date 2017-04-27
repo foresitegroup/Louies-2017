@@ -6,5 +6,4 @@ kids-log/*
 kids-log/wp-content/*
 !kids-log/wp-content/themes/
 kids-log/wp-content/themes/*
-!kids-log/wp-content/themes/lifeproductions
-kids-log/wp-content/themes/lifeproductions/.DS_Store
+!kids-log/wp-content/themes/louies2017

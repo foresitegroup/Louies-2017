@@ -26,6 +26,7 @@ function email($address, $name="") {
 
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <?php if (isset($BlogInc)) echo $BlogInc; ?>
 
     <link href="//fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Open+Sans:600,700,800|Rubik:700,900" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/icons.css?<?php if ($TopDir == "") echo filemtime('inc/icons.css'); ?>">
@@ -47,6 +48,10 @@ function email($address, $name="") {
           event.preventDefault();
           $(this).modal({ fadeDuration: 200, fadeDelay: 0 });
         });
+
+        $(".menu [href]").each(function() {
+          if (this.href == window.location.href) { $(this).addClass("current"); }
+        });
       });
     </script>
   </head>
@@ -55,7 +60,7 @@ function email($address, $name="") {
 
     <div class="llr-header<?php if (!isset($PageTitle)) echo " home"; ?>">
       <div class="site-width-small">
-        <a href="."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Louie's Last Regatta" id="logo"></a>
+        <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Louie's Last Regatta" id="logo"></a>
 
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
@@ -64,7 +69,7 @@ function email($address, $name="") {
             <li><a href="<?php echo $TopDir; ?>register.php">Register</a></li>
             <li><a href="<?php echo $TopDir; ?>giving.php">Giving</a></li>
             <li><a href="<?php echo $TopDir; ?>event.php">Event</a></li>
-            <li><a href="<?php echo $TopDir; ?>kids-log">Kids Log</a></li>
+            <li><a href="<?php echo $TopDir; ?>kids-log"<?php if ($TopDir != "") echo " class=\"current\""; ?>>Kids Log</a></li>
             <li><a href="<?php echo $TopDir; ?>contact.php">Contact</a></li>
           </ul>
         </div>
