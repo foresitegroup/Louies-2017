@@ -139,11 +139,10 @@ include "header.php";
 
       <div class="committee-names">
         Angie Doggett<br>
-        Gordy King<br>
-        Mary Livingston<br>
+        Hays Formella<br>
         Rebecca Mueller<br>
-        Sir Jon Mueller<br>
-        Tiffany Cvikota<br>
+        Ed Purcell<br>
+        Megan Van Deurzen<br>
         Song Xiong<br>
         Francis Morton
       </div>

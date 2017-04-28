@@ -1577,6 +1577,8 @@ A.button.hollow:hover:after {
   line-height: 1.4em;
 }
 
+.contact-footer A { color: #370000; }
+
 .contact-footer H3 {
   margin: 0 0 0.8em;
   color: #FFFFFF;
@@ -1631,6 +1633,7 @@ A.button.hollow:hover:after {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
+  white-space: nowrap;
 }
 
 .first-post {
@@ -1780,7 +1783,6 @@ A.button.hollow:hover:after {
   font-size: 14px;
   line-height: 1.8em;
   box-sizing: border-box;
-  /*min-height: 575px;*/
   padding-bottom: 5em;
   border-bottom: 8px solid #000038;
   position: relative;
@@ -2167,13 +2169,6 @@ A#loadmore:active {
   color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
 .blog-newsletter {
   padding: 4em 0;
   background: #9D1C30;
@@ -2222,31 +2217,6 @@ A#loadmore:active {
   border-color: #000038;
   color: #000038;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (min-width: 1920px) {
@@ -2305,6 +2275,10 @@ A#loadmore:active {
   .site-width-small { width: 96%; }
 
   .video-banner .site-width H1 { font-size: 90px; }
+
+  .single-post P, .single-post UL { width: 96%; }
+  .single-post BLOCKQUOTE { width: 96%; margin: 0 auto; }
+  .single-post BLOCKQUOTE P { width: 100%; }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2330,6 +2304,9 @@ A#loadmore:active {
   .contact-footer .contact-address,
   .contact-footer .committee { width: 48%; margin: 0; }
   .contact-footer .contact-address { margin-right: 3.5%; }
+
+  .index-post:link, .index-post:visited { margin-right: 9.9%; }
+  .index-post:nth-of-type(3n+3) { margin-right: 0; }
 }
 
 @media only screen and (max-width: 905px) {
@@ -2446,6 +2423,12 @@ A#loadmore:active {
     column-count: 3;
   }
 
+  .index-post:link, .index-post:visited,
+  .index-post:nth-of-type(3n+3) { width: 44%; margin-right: 10%; }
+  .index-post:nth-of-type(2n+2) { margin-right: 0; }
+
+  .single-post-banner { height: 500px; }
+
   #blog-newsletter-form { width: 100%; }
 }
 
@@ -2501,6 +2484,14 @@ A#loadmore:active {
     -moz-column-count: 2;
     column-count: 2;
   }
+
+  .first-post-image { width: 100%; height: 400px; }
+  .first-post .fg-waves { top: 400px; left: 50%; transform: translate(-50%,-50%); }
+  .first-post-text { width: 100%; padding: 450px 0 50px; }
+
+  .filter A:link, .filter A:visited { margin: 0.5em 2.5em; }
+
+  .single-post-banner { height: 400px; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2541,10 +2532,13 @@ A#loadmore:active {
     width: 100%;
   }
 
+  .banner H2 { font-size: 20vw; }
+
   .banner-giving H2 { font-size: 16.5vw; }
 
   .slide-section-text H2 { font-size: 10.7vw; }
   .giving .slide-section-text H2 { font-size: 14vw; }
+  #louies-story .slide-section-text H2 { font-size: 17vw; }
 
   .banner-event H2 { font-size: 16vw; }
 
@@ -2552,7 +2546,8 @@ A#loadmore:active {
   #dates-and-times .dats { float: none; width: 100%; }
   #dates-and-times .sidebar { margin-bottom: 2em; }
   #dates-and-times .sidebar:after { display: inline-block; transform: rotate(90deg); top: 0.2em; }
-
+  
+  #awards H2 { font-size: 16.75vw; }
   #awards .trophy-image { width: 100%; margin: 0 0 15px; }
   #awards .trophy-text { width: 100%; }
   
@@ -2577,6 +2572,19 @@ A#loadmore:active {
 
   .contact-footer .committee .committee-names { width: 100%; }
 
+  .first-post-text H1 { font-size: 16vw; }
+
+  .index-post:link, .index-post:visited,
+  .index-post:nth-of-type(3n+3),
+  .index-post:nth-of-type(2n+2) { width: 100%; margin-right: 0; }
+
+  .single-post-banner { height: 300px; }
+
+  .single-post-title { font-size: 13vw; }
+
+  .single-post-share A:link, .single-post-share A:visited { margin-bottom: 0.5em; }
+  
+  .blog-newsletter H2 { font-size: 14vw; }
   #blog-newsletter-form #blog-newsletter-email { float: none; width: 100%; }
   #blog-newsletter-form INPUT[type="submit"] { float: none; margin-top: 2em; }
 }

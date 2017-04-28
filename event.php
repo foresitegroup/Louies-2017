@@ -111,7 +111,7 @@ include "header.php";
       Louie's Last Regatta has gained national attention being named one of the top ten sailing events in the country and to date raising over $1 Million Dollars for Childrens Hospital of Wisconsin.<br>
       <br>
 
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="swipebox-video">PLAY VIDEO</a>
+      <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
     </div>
   </div>
 </div>
@@ -258,7 +258,7 @@ include "header.php";
 
         <div>
           <h2>2015</h2>
-          <a href="pdfs/2015_Results.pdf" class="arrow">2015 Complete Results</a>
+          <a href="pdf/2015_Results.pdf" class="arrow">2015 Complete Results</a>
 
           <h3>Louie's Cup - Love Rock Section</h3>
           1st - Defiance (Dale Smirl)<br>
@@ -294,7 +294,7 @@ include "header.php";
 
         <div>
           <h2>2014</h2>
-          <a href="pdfs/2014_Results.pdf" class="arrow">Complete Results</a>
+          <a href="pdf/2014_Results.pdf" class="arrow">Complete Results</a>
 
           <h3>Louie's Cup - Love Rock Section</h3>
           1st - Defiance (Dale Smirl)<br>
@@ -341,7 +341,7 @@ include "header.php";
 
         <div>
           <h2>2013</h2>
-          <a href="pdfs/2013_Results.pdf" class="arrow">2013 Complete Results</a>
+          <a href="pdf/2013_Results.pdf" class="arrow">2013 Complete Results</a>
 
           <h3>Louie's Cup - Love Rock Section</h3>
           1st - Widespread Panic / Tom Peterson<br>
@@ -387,7 +387,7 @@ include "header.php";
 
         <div>
           <h2>2012</h2>
-          <a href="pdfs/2012_Results.pdf" class="arrow">2012 Complete Results</a>
+          <a href="pdf/2012_Results.pdf" class="arrow">2012 Complete Results</a>
 
           <h3>Louie's Cup</h3>
           <strong>Love Rock Section (twice around)</strong><br>
@@ -465,7 +465,7 @@ include "header.php";
 
         <div>
           <h2>2010</h2>
-          <a href="pdfs/2010_Results.pdf" class="arrow">2010 Complete Results</a><br>
+          <a href="pdf/2010_Results.pdf" class="arrow">2010 Complete Results</a><br>
 
           112 boats finished the race out of 135 registered<br>
           <br>
@@ -507,7 +507,7 @@ include "header.php";
 
         <div>
           <h2>2009</h2>
-          <a href="pdfs/2009_Results.pdf" class="arrow">2009 Complete Results</a>
+          <a href="pdf/2009_Results.pdf" class="arrow">2009 Complete Results</a>
 
           <h3>Louie's Last Cup</h3>
           1st - Tassi deFelice / Skimbishanks<br>
@@ -533,7 +533,7 @@ include "header.php";
 
         <div>
           <h2>2008</h2>
-          <a href="pdfs/2008_Results.pdf" class="arrow">2008 Complete Results</a>
+          <a href="pdf/2008_Results.pdf" class="arrow">2008 Complete Results</a>
 
           <h3>Louie's Last Cup</h3>
           1st - Bill Schanen III / Main Street<br>
@@ -559,7 +559,7 @@ include "header.php";
 
         <div>
           <h2>2007</h2>
-          <a href="pdfs/2007_Results.pdf" class="arrow">2007 Complete Results</a>
+          <a href="pdf/2007_Results.pdf" class="arrow">2007 Complete Results</a>
 
           <h3>Louie's Last Cup</h3>
           1st - deFelice / Looking for a Name<br>
@@ -586,7 +586,7 @@ include "header.php";
 
         <div>
           <h2>2006</h2>
-          <a href="pdfs/2006_Results.pdf" class="arrow">2006 Complete Results</a>
+          <a href="pdf/2006_Results.pdf" class="arrow">2006 Complete Results</a>
 
           <h3>Louie's Last Cup</h3>
           1st - Special Sauce<br>
@@ -610,7 +610,7 @@ include "header.php";
 
         <div>
           <h2>2005</h2>
-          <a href="pdfs/2005_Results.pdf" class="arrow">2005 Complete Results</a>
+          <a href="pdf/2005_Results.pdf" class="arrow">2005 Complete Results</a>
 
           <h3>Louie's Last Cup</h3>
           1st - Naiya<br>

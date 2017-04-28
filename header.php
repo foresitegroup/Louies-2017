@@ -24,8 +24,8 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="A fun filled weekend of sailing and fund raising for Children's Hospital of Wisconsin, held off the Milwaukee shoreline in the summer warmed waters of Lake Michigan.">
+    <meta name="keywords" content="Louie's Last Regatta, children's hospital, Maggie Bersch, Milwaukee charity, Mount Gay Rum, Milwaukee yacht club, sailing Milwaukee, charity regatta, best charities, best regattas, top ten regatta, sailing magazine, south shore yacht club, ale house, Milwaukee brewing company, Louie's Demise, MCSC, community sailing center, McKinley marina, Foresite Group, Remedi Creative, Harken, PHRF, Crew Challenge">
     <?php if (isset($BlogInc)) echo $BlogInc; ?>
 
     <link href="//fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Open+Sans:600,700,800|Rubik:700,900" rel="stylesheet">
@@ -54,7 +54,22 @@ function email($address, $name="") {
         });
       });
     </script>
+
+    <!-- BEGIN Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-29664215-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- END Google Analytics -->
   </head>
+  
   <body>
     <div class="sticky-spacer"></div>
 
