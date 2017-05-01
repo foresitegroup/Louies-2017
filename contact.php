@@ -140,6 +140,7 @@ include "header.php";
       <div class="committee-names">
         Angie Doggett<br>
         Hays Formella<br>
+        Gordy King<br>
         Rebecca Mueller<br>
         Ed Purcell<br>
         Megan Van Deurzen<br>
