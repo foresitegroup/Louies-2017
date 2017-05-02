@@ -10,7 +10,7 @@ include "header.php";
     <h2>Louie's Last Regatta</h2>
 
     <div class="banner-text">
-      Louie's is one of the nation's largest fund raising regattas on Lake Michigan in Milwaukee, WI. It is an open to all, fun oriented weekend of sailing and fundraising for Children's Hospital of Wisconsin that includes pre-race fundraising by boat, race and post-race dock side party.
+      Louie's is one of the nation's largest fund raising regattas. Louie's is held on Lake Michigan in Milwaukee, WI. It is an open to all, fun oriented weekend of sailing and fundraising for Children's Hospital of Wisconsin that includes pre-race fundraising by boats, race and post-race dock side party.
     </div>
 
     <div class="event-links">
@@ -102,13 +102,13 @@ include "header.php";
     <div class="slide-section-text">
       <h2>LOUIE'S LAST</h2>
 
-      As one of the nation's largest fund raising regattas, Louies Last Regatta is an open to all, year end, fun oriented, annual Sailing Regatta on Lake Michigan, founded in 1999 by a group of Milwaukee Sailors who wanted one last sail before the end of the sailing season. To make the regatta more "attractive", the sailors turned the race into a charity event, raising roughly $900 in the first year.<br>
+      As one of the nation's largest fund raising regattas, Louie's Last Regatta is a year end, open-to-all, fun oriented sailing regatta held on Lake Michigan. Louie's was founded by a group of local sailors who wanted one last sail before the season ended. To give the regatta more purpose, the sailors made the race into a fund raiser for Children's Hospital and as a contribution to the regatta founder's niece Maggie.<br>
       <br>
 
-      As time passed, popularity grew, and more sponsors and volunteers stepped forward the event grew from a few boats to  attract  hundreds of boats and thousands of participants to Milwaukee on a yearly basis.<br>
+      As time passed, popularity grew, and more sponsors and volunteers stepped forward, the event grew from a few boats to attract hundreds of boats and thousands of participants to Milwaukee on a yearly basis.<br>
       <br>
 
-      Louie's Last Regatta has gained national attention being named one of the top ten sailing events in the country and to date raising over $1 Million Dollars for Childrens Hospital of Wisconsin.<br>
+      Louie's Last Regatta has gained national attention being named one of the top ten sailing events in the country and to date raising over $1 million for Children's Hospital of Wisconsin.<br>
       <br>
 
       <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
