@@ -4,7 +4,7 @@
         <br>
         <br>
 
-        Louies Last Regatta is an open to all, year end, fun oriented, annual sailing regatta on Lake Michigan where all the proceeds benefit Children's Hospital of Wisconsin. Founded in 1999 by a group of Milwaukee sailors, Louie's Last Regatta has grown into one of the nation's largest fundraising regattas.<br>
+        Louie's Last Regatta is an open-to-all, year-end, fun-oriented annual sailing regatta on Lake Michigan in which all proceeds benefit Children's Hospital of Wisconsin. Founded in 1999 by a group of Milwaukee sailors, Louie's Last Regatta has grown into one of the nation's largest fundraising regattas.<br>
         <br>
         <br>
 
@@ -37,12 +37,12 @@
           var formMessages = $('#newsletter-form-messages');
           $(form).submit(function(event) {
             event.preventDefault();
-            
+
             function formValidation() {
               if ($('#newsletter-email').val() === '') { alert('Email address required.'); $('#newsletter-email').focus(); return false; }
               return true;
             }
-            
+
             if (formValidation()) {
               var formData = $(form).serialize();
               formData += '&src=ajax';
@@ -77,7 +77,7 @@
 
       <h2>LOUIE'S NEWS &amp; UPDATES</h2>
       I would like to receive timely information about Louie's Last Regatta.
-      
+
       <div id="newsletter-form-messages"></div>
 
       <form action="form-newsletter.php" method="POST" id="newsletter-form">

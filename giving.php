@@ -23,7 +23,7 @@ include "header.php";
   <div class="site-width">
     <div class="column">
       <h3>01. GIVE NOW</h3>
-      <h2>RAZOO ONLINE</h2>
+      <h2>ONLINE GIVING</h2>
       Use Razoo to make direct donations to Children's Hospital prior to and after the regatta.
 
       <i class="fg fg-boat"></i>

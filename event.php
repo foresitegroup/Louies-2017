@@ -10,7 +10,7 @@ include "header.php";
     <h2>Louie's Last Regatta</h2>
 
     <div class="banner-text">
-      Louie's is one of the nation's largest fund raising regattas. Louie's is held on Lake Michigan in Milwaukee, WI. It is an open to all, fun oriented weekend of sailing and fundraising for Children's Hospital of Wisconsin that includes pre-race fundraising by boats, race and post-race dock side party.
+      Louie's is one of the nation's largest fundraising regattas. It's held on Lake Michigan in Milwaukee, and is an open-to-all, fun-oriented weekend of sailing and fundraising for the Children's Hospital of Wisconsin. The event includes pre-race fundraising by the participants, the race itself and a post-race dock-side party and auction.
     </div>
 
     <div class="event-links">
@@ -102,13 +102,13 @@ include "header.php";
     <div class="slide-section-text">
       <h2>LOUIE'S LAST</h2>
 
-      As one of the nation's largest fund raising regattas, Louie's Last Regatta is a year end, open-to-all, fun oriented sailing regatta held on Lake Michigan. Louie's was founded by a group of local sailors who wanted one last sail before the season ended. To give the regatta more purpose, the sailors made the race into a fund raiser for Children's Hospital and as a contribution to the regatta founder's niece Maggie.<br>
+      As one of the nation's largest fundraising regattas, Louie's Last Regatta is a year-end, open-to-all, fun-oriented sailing regatta held on Lake Michigan. Louie's was founded by a group of local sailors who wanted one last sail before the season ended. To give it more purpose, the sailors made the race into a fundraiser for Children's Hospital and as a contribution to the regatta founder's niece, Maggie.<br>
       <br>
 
-      As time passed, popularity grew, and more sponsors and volunteers stepped forward, the event grew from a few boats to attract hundreds of boats and thousands of participants to Milwaukee on a yearly basis.<br>
+      As time passed, popularity grew, and more sponsors and volunteers stepped forward, the event grew from a few boats to hundreds, with thousands of participants.<br>
       <br>
 
-      Louie's Last Regatta has gained national attention being named one of the top ten sailing events in the country and to date raising over $1 million for Children's Hospital of Wisconsin.<br>
+      Louie's Last Regatta has has gained national attention being named one of the top ten sailing events in the county and raising over $1 million for the Children's Hospital of Wisconsin.<br>
       <br>
 
       <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
@@ -133,7 +133,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>Maggie Bersch Cup</h3>
-        Maggie Bersch was diagnosed with leukemia when she was three years old. Her battle with cancer and the quality of the care she and her family received at Children's Hospital of Wisconsin was the inspiration for the event's relationship with the hospital. Her story become a part of Louie's fundraising as Maggie's father, Denny, provided an annual update on her treatments at Children's Hospital. After Maggie passed away in 2004 at age eight, a trophy in Maggie's honor was dedicated and was awarded to the top fundraiser at Louie's. The Maggie Bersch Cup continues that tradition. Winning the Maggie Bersch Cup as the top fundraiser is the most prized honor at Louie's.
+        Maggie Bersch was diagnosed with leukemia when she was three years old. Her battle with cancer and the quality of care she and her family received at the Children's Hospital of Wisconsin were the inspiration for the event's relationship with the hospital. Her story became a part of Louie's fundraising as Maggie's father, Denny, provided an annual update on her treatments at Children's Hospital. After Maggie passed away in 2004 at age eight, a trophy was dedicated in Maggie's honor and is awarded to the top fundraiser. Winning the Maggie Bersch Cup is the most prized honor at Louie's.
       </div>
     </div>
 
@@ -143,7 +143,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>Louie's Last Cup</h3>
-        The dented and scuffed cup is the Louie's Last Cup. This trophy is awarded to the first place boat in the actual race. Legend has it that this may have been the drinking vessel that was bashed over Uncle Louie's head back in 1886 ultimately leading to his demise. The truth is that the cup was repeatedly bashed into a parking meter out in front of the trophy store the day it was purchased. We wanted a distressed look to it....
+        The dented and scuffed cup is the Louie's Last Cup. This trophy is awarded to the first place boat in the actual race. Legend has it that this may have been the drinking vessel that was bashed over Uncle Louie's head back in 1886, ultimately leading to his demise. The truth is that the cup was repeatedly bashed into a parking meter out in front of the trophy store the day it was purchased. We wanted a distressed look to it....
       </div>
     </div>
 
@@ -153,7 +153,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>The Flounder</h3>
-        The large fish is called The Flounder (commissioned in 2005). It is awarded to the boat with the longest elapsed time around the marks (last stinking place). The winner of the Flounder epitomizes the good natured attitude of the event.
+        The large fish is called The Flounder (commissioned in 2005). It is awarded to the boat with the longest elapsed time around the marks (last stinking place). The winner of the Flounder epitomizes the good-natured attitude of the event.
       </div>
     </div>
 
@@ -173,7 +173,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>The Cutlass</h3>
-        In 2007 a new trophy is added to the lineup of polished cups and plaques. Inspired by those fun loving keg standing bears from Louie's 8th and donated by Captain Tom (Bucket-O-Margaritas) Young. This highly prized trophy will be awarded to the most uniquely attired crew, a.k.a. the best costumed crew of the regatta. Judging will be held on the evening of the regatta party, by the regatta committee.
+        In 2007, a new trophy was added to the lineup of polished cups and plaques. Inspired by those fun-loving, keg-standing bears from Louie's 8th and donated by Captain Tom (Bucket-O-Margaritas) Young. This highly-prized trophy is awarded to the most uniquely-attired crew, a.k.a., the best costumed crew of the regatta. Judging will be held on the evening of the regatta party by the regatta committee.
       </div>
     </div>
 
@@ -193,7 +193,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>Green Brag Flag</h3>
-        The Green Brag Flag is awarded to the top three money raising boats for Children's Hospital of Wisconsin.
+        The Green Brag Flag is awarded to the three boats that raised the most money for the Children's Hospital of Wisconsin.
       </div>
     </div>
 
@@ -203,7 +203,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>Division Brag Flag</h3>
-        This flag is awarded to each participating boat in Louie's Last Regatta, because each "Boat is its own division."
+        This flag is awarded to each participating boat in Louie's Last Regatta because "each boat is its own division."
       </div>
     </div>
   </div>
