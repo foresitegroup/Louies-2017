@@ -726,7 +726,7 @@ include "header.php";
     <div class="sponsor"><img src="images/logo-foresite.png" alt=""></div>
   </div>
 
-  <a href="#sponsor">BECOME A SPONSOR</a>
+  <a href="#sponsor" rel="nofollow">BECOME A SPONSOR</a>
 </div>
 
 <div id="sponsor" class="site-width-small">

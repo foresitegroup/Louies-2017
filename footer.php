@@ -18,7 +18,7 @@
           <li><a href="<?php echo $TopDir; ?>register.php">REGISTER</a></li>
           <li><a href="<?php echo $TopDir; ?>giving.php">GIVING</a></li>
           <li><a href="<?php echo $TopDir; ?>event.php">EVENT</a></li>
-          <li><a href="#newsletter">NEWSLETTER</a></li>
+          <li><a href="#newsletter" rel="nofollow">NEWSLETTER</a></li>
         </ul>
 
         <div class="social">
