@@ -67,8 +67,8 @@ include "header.php";
       <div class="dat">
         <h3><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['eventdate']); ?></h3>
         <h2>POST RACE PARTY</h2>
-        Milwaukee Ale House
-        Starts at 3PM
+        Milwaukee Ale House<br>
+        Immediately after the race
       </div>
     </div>
   </div>
