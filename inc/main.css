@@ -335,7 +335,7 @@ A.button.hollow:hover:after {
   clear: both;
 }
 
-.sticky-spacer.sticky { height: 105px; }
+.sticky-spacer.sticky { height: 90px; }
 
 .llr-header.sticky {
   position: fixed;
@@ -353,13 +353,15 @@ A.button.hollow:hover:after {
   position: relative;
 }
 
+.llr-header.sticky .site-width-small { height: 90px; }
+
 .llr-header.home .site-width-small {
   width: 1200px;
 }
 
 #logo,
 .llr-header.home.sticky #logo {
-  max-height: 87px;
+  max-height: 70px;
   width: auto;
   position: absolute;
   top: 50%;
@@ -2548,7 +2550,7 @@ A#loadmore:active {
   #dates-and-times .sidebar:after { display: inline-block; transform: rotate(90deg); top: 0.2em; }
   
   #awards H2 { font-size: 16.75vw; }
-  #awards .trophy-image { width: 100%; margin: 0 0 15px; }
+  #awards .trophy-image { width: 100%; margin: 0 0 15px; text-align: left; }
   #awards .trophy-text { width: 100%; }
   
   #results .results-sidebar { font-size: 15vw; }
