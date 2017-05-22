@@ -13,7 +13,7 @@ include "header.php";
       To register for Louies <?php echo $GLOBALS['eventnum']; ?> Last Regatta on <?php echo date("F j, Y", $GLOBALS['eventdate']); ?> visit the online registration page provided by The US Sailing Regatta Network and fill in all the required fields (have your credit card handy).  All proceeds go to Children's Hospital of Wisconsin.
     </div>
 
-    <a href="https://www.regattanetwork.com/clubmgmt/applet_registration_form.php?regatta_id=13313" class="button hollow">REGISTER NOW</a>
+    <a href="https://www.regattanetwork.com/clubmgmt/applet_registration_form.php?regatta_id=14867" class="button hollow">REGISTER NOW</a>
   </div>
 </div>
 
