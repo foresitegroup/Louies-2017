@@ -38,10 +38,10 @@ include "header.php";
       </div>
 
       <div class="dat">
-        <h3><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['skippers']-86000); ?></h3>
+        <h3><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['razoo']); ?></h3>
         <h2>RAZOO DEADLINE</h2>
-        12PM on <?php echo date("F j, Y", $GLOBALS['skippers']-86000); ?><br>
-        Online Donations will not be counted after Noon on <?php echo date("m.d.Y", $GLOBALS['skippers']-86000); ?>.
+        <?php echo date('g:i A \o\n F j, Y', $GLOBALS['razoo']); ?><br>
+        Online Donations will not be counted after <?php echo date('g:i A \o\n m.d.Y', $GLOBALS['razoo']); ?>.
       </div>
 
       <div class="dat">
