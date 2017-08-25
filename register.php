@@ -21,8 +21,8 @@ include "header.php";
   <div class="site-width">
     <h4>IMPORTANT DOCUMENTS <i class="fg fg-arrow-right"></i></h4>
 
-    <a href="pdf/2016_Notice_of_Race.pdf">2016 Notice of Race (NOR)</a>
-    <a href="pdf/2016_Sailing_Instructions.pdf">2016 Sailing Instructions</a>
+    <a href="pdf/2017_Notice_of_Race.pdf">2017 Notice of Race (NOR)</a>
+    <a href="pdf/2017_Sailing_Instructions.pdf">2017 Sailing Instructions</a>
   </div>
 </div>
 
