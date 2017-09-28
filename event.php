@@ -223,13 +223,29 @@ include "header.php";
       <script type="text/javascript" src="inc/slick/slick.init.results-slider.js"></script>
       <div class="results-slider">
         <div>
+          <h2>2017</h2>
+          <a href="pdf/2017_Results.pdf" class="arrow">2017 Complete Results</a>
+
+          <h3>O-Gii</h3>
+          1st - Imedi<br>
+          2nd - Reckless Abandon<br>
+          3rd - Brawler<br>
+          <br>
+
+          <h3>Outboard</h3>
+          1st - CHANCE<br>
+          2nd - Kindred Spirit<br>
+          3rd - Yeah Bouy
+        </div>
+
+        <div>
           <h2>2016</h2>
           <a href="http://www.regattanetwork.com/clubmgmt/applet_regatta_results.php?regatta_id=13313&show_divisions=1" class="arrow">2016 Complete Results</a>
 
           <h3>O-Gii</h3>
           1st - Defiance<br>
           2nd - Promo<br>
-          3rd - Imeldi<br>
+          3rd - Imedi<br>
           <br>
 
           <h3>Outboard</h3>
