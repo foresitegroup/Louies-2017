@@ -118,8 +118,9 @@ include "header.php";
     <div class="contact-address">
       <div>
         <h3>MAILING ADDRESS</h3>
-        Louie's Last Regatta<br>
-        PO Box 45<br>
+        Attn: Colleen Myers<br>
+        Children's Hospital of Wisconsin Foundation<br>
+        M.S. 3050, P.O. Box 1997<br>
         Milwaukee, WI 53201
       </div>
 
