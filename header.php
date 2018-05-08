@@ -1,9 +1,10 @@
 <?php
-$GLOBALS['eventdate'] = strtotime('23 September 2017 12:00');
-$GLOBALS['eventnum'] = "19<sup>th</sup>";
-$GLOBALS['kickoff'] = strtotime('1 June 2017 17:30');
-$GLOBALS['skippers'] = strtotime('22 September 2017 18:00');
-$GLOBALS['razoo'] = strtotime('22 September 2017 15:00');
+$GLOBALS['eventdate'] = strtotime('22 September 2018 12:00');
+$GLOBALS['eventnum'] = "20<sup>th</sup>";
+$GLOBALS['kickoff'] = strtotime('1 June 2018 17:30');
+$GLOBALS['skippers'] = strtotime('21 September 2018 18:00');
+$GLOBALS['razoo'] = strtotime('21 September 2018 15:00');
+$GLOBALS['comingsoon'] = "yes";
 
 if (!isset($TopDir)) $TopDir = "";
 

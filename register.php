@@ -5,6 +5,9 @@ include "header.php";
 
 <div class="banner">
   <div class="site-width">
+    <?php if (isset($GLOBALS['comingsoon'])) { ?>
+    <h2><?php echo date("Y", $GLOBALS['eventdate']); ?> Registration Coming Soon</h2>
+    <?php } else { ?>
     <h3>Register now through <?php echo date("F j, Y", $GLOBALS['eventdate']-86000); ?></h3>
 
     <h2>Enter The Race</h2>
@@ -14,10 +17,11 @@ include "header.php";
     </div>
 
     <a href="https://www.regattanetwork.com/clubmgmt/applet_registration_form.php?regatta_id=14867" class="button hollow">REGISTER NOW</a>
+    <?php } ?>
   </div>
 </div>
 
-<div class="documents">
+<div class="documents"<?php if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>
   <div class="site-width">
     <h4>IMPORTANT DOCUMENTS <i class="fg fg-arrow-right"></i></h4>
 

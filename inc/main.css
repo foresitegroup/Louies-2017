@@ -463,6 +463,11 @@ A.button.hollow:hover:after {
   line-height: 2em;
 }
 
+#llr-icon {
+  width: 108px;
+  height: auto;
+}
+
 .footer-hashtags {
   color: #000038;
   font-family: 'Rubik', sans-serif;
@@ -683,7 +688,7 @@ A.button.hollow:hover:after {
 }
 
 .home-dates {
-  padding: 4.7em 0;
+  padding: 0.5em 0;
   background: #9D1C30;
   color: #370000;
   font-family: 'Rubik', sans-serif;
@@ -692,6 +697,8 @@ A.button.hollow:hover:after {
   line-height: 1.4em;
   letter-spacing: 0.1em;
 }
+
+.home-dates .site-width { margin: 4.2em auto; }
 
 .home-dates .one-fourth {
   display: inline-block;
@@ -1504,6 +1511,8 @@ A.button.hollow:hover:after {
   left: 50%;
   bottom: 0;
   transform: translate(-50%,50%);
+  width: 108px;
+  height: auto;
 }
 
 .contact-form {

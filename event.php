@@ -14,7 +14,7 @@ include "header.php";
     </div>
 
     <div class="event-links">
-      <a href="#dates-and-times">DATES AND TIMES <i class="fg fg-calendar"></i></a>
+      <a href="#dates-and-times"<?php if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>DATES AND TIMES <i class="fg fg-calendar"></i></a>
       <a href="#awards">TROPHIES <i class="fg fg-trophy"></i></a>
       <a href="#results">RESULTS <i class="fg fg-stopwatch"></i></a>
       <a href="#louies-story">LOUIE'S STORY <i class="fg fg-boat"></i></a>
@@ -22,7 +22,7 @@ include "header.php";
   </div>
 </div>
 
-<div id="dates-and-times">
+<div id="dates-and-times"<?php if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>
   <div class="site-width">
     <div class="sidebar">
       IMPORTANT DATES &amp; TIMES

@@ -30,7 +30,7 @@ include "header.php";
 </div>
 
 <div class="home-dates">
-  <div class="site-width">
+  <div class="site-width"<?php if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>
     <div class="one-fourth">
       <div class="home-dates-number"></div>
       <div class="home-dates-date">Important Dates <i class="fg fg-arrow-right"></i></div>
