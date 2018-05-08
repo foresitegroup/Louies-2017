@@ -1,6 +1,6 @@
     <div class="llr-footer">
       <div class="footer-text">
-        <img src="<?php echo $TopDir; ?>images/llr-icon.png" alt=""><br>
+        <img src="<?php echo $TopDir; ?>images/llr-icon.png?<?php if ($TopDir == "") echo filemtime('images/llr-icon.png'); ?>" alt="" id="llr-icon"><br>
         <br>
         <br>
 

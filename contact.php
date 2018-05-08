@@ -12,7 +12,7 @@ include "header.php";
     </div>
   </div>
 
-  <img src="images/llr-icon-white.png" alt="" class="icon">
+  <img src="images/llr-icon-white.png?<?php echo filemtime('images/llr-icon-white.png'); ?>" alt="" class="icon">
 </div>
 
 <div class="contact-form">
