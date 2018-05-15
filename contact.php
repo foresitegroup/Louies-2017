@@ -139,14 +139,11 @@ include "header.php";
       </div>
 
       <div class="committee-names">
-        Angie Doggett<br>
-        Hays Formella<br>
-        Gordy King<br>
-        Rebecca Mueller<br>
+        Colleen Myers<br>
         Ed Purcell<br>
-        Megan Van Deurzen<br>
-        Song Xiong<br>
-        Francis Morton
+        Song Buck<br>
+        Francis Morton<br>
+        Hays Formella
       </div>
     </div>
   </div>
