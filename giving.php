@@ -13,7 +13,7 @@ include "header.php";
 
     <div class="hashtag">#ITSFORTHEKIDS</div>
 
-    <a href="https://www.razoo.com/story/Louieslastregatta" class="button">DONATE TODAY!</a>
+    <a href="https://www.mightycause.com/organization/Louieslastregatta" class="button">DONATE TODAY!</a>
   </div>
 </div>
 
@@ -24,7 +24,7 @@ include "header.php";
     <div class="column">
       <h3>01. GIVE NOW</h3>
       <h2>ONLINE GIVING</h2>
-      Use Razoo to make direct donations to Children's Hospital prior to and after the regatta. Online Donations will not be counted after <?php echo date('g:i A \o\n m.d.Y', $GLOBALS['razoo']); ?>.<br>
+      Use Mightycause to make direct donations to Children's Hospital prior to and after the regatta. Online Donations will not be counted after <?php echo date('g:i A \o\n m.d.Y', $GLOBALS['razoo']); ?>.<br>
       <br>
 
       <!-- <i class="fg fg-boat"></i> -->
@@ -32,7 +32,7 @@ include "header.php";
       <h4>BOAT CREW MEMBERS:</h4> can find, register and share their boat's donation link with crew, friends, family and/or co-workers.<br>
       <br>
 
-      <a href="https://www.razoo.com/story/Louieslastregatta" class="button hollow">GIVE NOW</a>
+      <a href="https://www.mightycause.com/organization/Louieslastregatta" class="button hollow">GIVE NOW</a>
 
     </div>
 
