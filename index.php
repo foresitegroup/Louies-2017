@@ -30,7 +30,7 @@ include "header.php";
 </div>
 
 <div class="home-dates">
-  <div class="site-width"<?php if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>
+  <div class="site-width"<?php //if (isset($GLOBALS['comingsoon'])) echo ' style="display: none;"'; ?>>
     <div class="one-fourth">
       <div class="home-dates-number"></div>
       <div class="home-dates-date">Important Dates <i class="fg fg-arrow-right"></i></div>
@@ -45,16 +45,16 @@ include "header.php";
       At <?php echo date("g:i A", $GLOBALS['kickoff']); ?>
     </div>
 
-    <div class="one-fourth">
+<!--     <div class="one-fourth">
       <div class="home-dates-number">02.</div>
       <div class="home-dates-date"><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['skippers']); ?></div>
       <div class="home-dates-event">SKIPPERS MEETING</div>
       MKE Ale House<br>
       At <?php echo date("g:i A", $GLOBALS['skippers']); ?>
-    </div>
+    </div> -->
 
     <div class="one-fourth">
-      <div class="home-dates-number">03.</div>
+      <div class="home-dates-number">02.</div>
       <div class="home-dates-date"><?php echo date('l\<\sp\a\n>\<\/\sp\a\n>F j\<\s\up>S\<\/\s\up>', $GLOBALS['eventdate']); ?></div>
       <div class="home-dates-event">THE REGATTA</div>
       Lake Michigan off the Main Gap<br>
