@@ -68,7 +68,7 @@ else :
 
         <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>&title=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="linkedin"><i class="fg fg-linkedin" aria-hidden="true"></i></a>
 
-        <a href="http://pinterest.com/pin/create/link/?url=http://foresitegrp.com/news/5-phrases-you-are-probably-saying-incorrectly/&media=<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>&description=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="pinterest"><i class="fg fg-pinterest" aria-hidden="true"></i></a>
+        <a href="http://pinterest.com/pin/create/link/?url=<?php echo get_permalink(); ?>&media=<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>&description=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="pinterest"><i class="fg fg-pinterest" aria-hidden="true"></i></a>
 
         <a href="http://plus.google.com/share?url=<?php echo get_permalink(); ?>" target="new" class="googleplus"><i class="fg fg-google-plus" aria-hidden="true"></i></a>
   		</div>
