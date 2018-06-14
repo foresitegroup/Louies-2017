@@ -8,7 +8,7 @@ include "header.php";
     <h2>Giving Options</h2>
 
     <div class="banner-text">
-      There are various giving options available to contribute to Louie's Last Regatta and Children's Hospital of Wisconsin. All money raised goes to Children's Hospital, get involved below!
+      There are various giving options available to contribute to Louie's Last Regatta and Children's Hospital of Wisconsin. All money raised goes to Children's Hospital of Wisconsin, get involved below!
     </div>
 
     <div class="hashtag">#ITSFORTHEKIDS</div>
@@ -24,7 +24,7 @@ include "header.php";
     <div class="column">
       <h3>01. GIVE NOW</h3>
       <h2>ONLINE GIVING</h2>
-      Use Mightycause to make direct donations to Children's Hospital prior to and after the regatta. Online Donations will not be counted after <?php echo date('g:i A \o\n m.d.Y', $GLOBALS['razoo']); ?>.<br>
+      Use Mightycause to make direct donations to Children's Hospital of Wisconsin prior to and after the regatta. Online Donations will not be counted after <?php echo date('g:i A \o\n m.d.Y', $GLOBALS['razoo']); ?>.<br>
       <br>
 
       <!-- <i class="fg fg-boat"></i> -->
@@ -76,8 +76,8 @@ include "header.php";
     <div class="slide-section-text">
       <h2>IT'S FOR THE KIDS</h2>
 
-      All money raised goes to Children's Hospital.
-      <div class="small">Louie's Last Regatta, Inc. is a 501(c)3 charitable organization. The IRS issued EIN is: 27-0984021 - Date of exemption status September 23, 2009.</div><br>
+      All proceeds directly benefit Children’s Hospital of Wisconsin.
+      <div class="small">Children’s Hospital of Wisconsin, Inc. is a tax-exempt 5019(c)(3) organization. All contributions made directly to the organization are tax deductible.</div><br>
       <br>
 
       <h3>VOLUNTEER OPPORTUNITIES</h3>

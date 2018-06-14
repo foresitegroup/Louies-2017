@@ -102,7 +102,7 @@ include "header.php";
     <div class="slide-section-text">
       <h2>LOUIE'S LAST</h2>
 
-      As one of the nation's largest fundraising regattas, Louie's Last Regatta is a year-end, open-to-all, fun-oriented sailing regatta held on Lake Michigan. Louie's was founded by a group of local sailors who wanted one last sail before the season ended. To give it more purpose, the sailors made the race into a fundraiser for Children's Hospital and as a contribution to the regatta founder's niece, Maggie.<br>
+      As one of the nation's largest fundraising regattas, Louie's Last Regatta is a year-end, open-to-all, fun-oriented sailing regatta held on Lake Michigan. Louie's was founded by a group of local sailors who wanted one last sail before the season ended. To give it more purpose, the sailors made the race into a fundraiser for Children's Hospital of Wisconsin and as a contribution to the regatta founder's niece, Maggie.<br>
       <br>
 
       As time passed, popularity grew, and more sponsors and volunteers stepped forward, the event grew from a few boats to hundreds, with thousands of participants.<br>
@@ -133,7 +133,7 @@ include "header.php";
       </div>
       <div class="trophy-text">
         <h3>Maggie Bersch Cup</h3>
-        Maggie Bersch was diagnosed with leukemia when she was three years old. Her battle with cancer and the quality of care she and her family received at the Children's Hospital of Wisconsin were the inspiration for the event's relationship with the hospital. Her story became a part of Louie's fundraising as Maggie's father, Denny, provided an annual update on her treatments at Children's Hospital. After Maggie passed away in 2004 at age eight, a trophy was dedicated in Maggie's honor and is awarded to the top fundraiser. Winning the Maggie Bersch Cup is the most prized honor at Louie's.
+        Maggie Bersch was diagnosed with leukemia when she was three years old. Her battle with cancer and the quality of care she and her family received at the Children's Hospital of Wisconsin were the inspiration for the event's relationship with the hospital. Her story became a part of Louie's fundraising as Maggie's father, Denny, provided an annual update on her treatments at Children's Hospital of Wisconsin. After Maggie passed away in 2004 at age eight, a trophy was dedicated in Maggie's honor and is awarded to the top fundraiser. Winning the Maggie Bersch Cup is the most prized honor at Louie's.
       </div>
     </div>
 
@@ -476,7 +476,7 @@ include "header.php";
           3rd - Jim &amp; Cheryl Kelly and the crew of Bounder<br>
           <br>
 
-          $69,000 raised for Children's Hospital
+          $69,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -518,7 +518,7 @@ include "header.php";
           3rd - Adam Brotz and the crew of Chance<br>
           <br>
 
-          $125,015 raised for Children's Hospital
+          $125,015 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -597,7 +597,7 @@ include "header.php";
           Gordy King / Yippi-Ki-Yay<br>
           <br>
 
-          $131,000 raised for Children's Hospital
+          $131,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -644,7 +644,7 @@ include "header.php";
           John &amp; Ellen Kuber / Promo<br>
           <br>
 
-          $80,000 raised for Children's Hospital
+          $80,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -661,7 +661,7 @@ include "header.php";
           Clay Feller / Bullseye<br>
           <br>
 
-          $60,000 raised for Children's Hospital
+          $60,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -675,7 +675,7 @@ include "header.php";
           Matt Suminski / Dirty Vicar<br>
           <br>
 
-          $30,000 raised for Children's Hospital
+          $30,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -689,7 +689,7 @@ include "header.php";
           Matt Suminski / The Concept<br>
           <br>
 
-          $30,000 raised for Children's Hospital
+          $30,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -702,7 +702,7 @@ include "header.php";
           Richard Hobbs / Hobgoblin<br>
           <br>
 
-          $12,500 raised for Children's Hospital
+          $12,500 raised for Children's Hospital of Wisconsin
         </div>
 
         <div>
@@ -711,7 +711,7 @@ include "header.php";
           Alliance<br>
           <br>
 
-          $5,000 raised for Children's Hospital
+          $5,000 raised for Children's Hospital of Wisconsin
         </div>
 
         <div class="toggle-content">
@@ -720,7 +720,7 @@ include "header.php";
           Ragdoll<br>
           <br>
 
-          $900 raised for Children's Hospital
+          $900 raised for Children's Hospital of Wisconsin
         </div>
       </div>
     </div>
