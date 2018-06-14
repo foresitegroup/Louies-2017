@@ -143,7 +143,11 @@ include "header.php";
         Ed Purcell<br>
         Song Buck<br>
         Francis Morton<br>
-        Hays Formella
+        Hays Formella<br>
+        Hannah Falk<br>
+        Teddy Berman<br>
+        Mike Nath<br>
+        Laura Schaub
       </div>
     </div>
   </div>
