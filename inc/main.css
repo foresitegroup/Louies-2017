@@ -2252,6 +2252,10 @@ A#loadmore:active {
   .home-dates-date SPAN { display: block; width: 0; }
 }
 
+@media only screen and (max-width: 1150px) {
+  .giving-section .column { width: 29%; margin-right: 6%; }
+}
+
 @media only screen and (max-width: 1125px) {
   #dates-and-times .dat { margin-right: 6.5%; }
 }
@@ -2309,8 +2313,6 @@ A#loadmore:active {
 
   .slide-section-text H2 { font-size: 57px; }
   .giving .slide-section-text H2 { font-size: 75px; }
-
-  .giving-section .column { width: 29%; margin-right: 6%; }
 
   .contact-footer .contact-address,
   .contact-footer .committee { width: 48%; margin: 0; }
