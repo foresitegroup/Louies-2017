@@ -147,7 +147,8 @@ include "header.php";
         Hannah Falk<br>
         Teddy Berman<br>
         Mike Nath<br>
-        Laura Schaub
+        Laura Schaub<br>
+        Mike Bersch
       </div>
     </div>
   </div>
