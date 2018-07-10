@@ -1122,10 +1122,11 @@ A.button.hollow:hover:after {
   color: #0066FF;
 }
 
+.giving-section .site-width { display: flex; }
+
 .giving-section .column {
-  display: inline-block;
   width: 30%;
-  margin-right: 4.7%;
+  margin-right: 5%;
   vertical-align: top;
 }
 
@@ -2252,10 +2253,6 @@ A#loadmore:active {
   .home-dates-date SPAN { display: block; width: 0; }
 }
 
-@media only screen and (max-width: 1150px) {
-  .giving-section .column { width: 29%; margin-right: 6%; }
-}
-
 @media only screen and (max-width: 1125px) {
   #dates-and-times .dat { margin-right: 6.5%; }
 }
@@ -2418,6 +2415,7 @@ A#loadmore:active {
   .giving .slide-section-text H2 { font-size: 56px; }
   
   .giving-section { padding: 4em 0; }
+  .giving-section .site-width { display: block; }
   .giving-section .column { width: 100%; margin: 3em 0; }
   .giving-section A.button:link, .giving-section A.button:visited { margin-top: 0; }
 
