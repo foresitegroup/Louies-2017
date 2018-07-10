@@ -13,7 +13,7 @@ include "header.php";
 
     <div class="hashtag">#ITSFORTHEKIDS</div>
 
-    <a href="https://www.mightycause.com/organization/Louieslastregatta" class="button">DONATE TODAY!</a>
+    <a href="https://www.mightycause.com/organization/Childrens-Hospital-Foundation-6" class="button">DONATE TODAY!</a>
   </div>
 </div>
 
@@ -32,7 +32,10 @@ include "header.php";
       <h4>BOAT CREW MEMBERS:</h4> can find, register and share their boat's donation link with crew, friends, family and/or co-workers.<br>
       <br>
 
-      <a href="https://www.mightycause.com/organization/Louieslastregatta" class="button hollow">GIVE NOW</a>
+      <a href="https://blog.mightycause.com/support/make-your-team-page-awesome/">How to create a fundraising team page</a><br>
+      <br>
+
+      <a href="https://www.mightycause.com/organization/Childrens-Hospital-Foundation-6" class="button hollow">GIVE NOW</a>
 
     </div>
 
