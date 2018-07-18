@@ -50,7 +50,7 @@ include "header.php";
 
     <div class="column">
       <h3>03. GIVE NIGHT OF</h3>
-      <h2>THE BUCKET</h2>
+      <h2>THE BUCKET DRAWING</h2>
       Donate to Children’s and receive drawing tickets the day of the event for the chance to win a wide variety of great prizes at the post-race celebration.<br>
       <br>
 
