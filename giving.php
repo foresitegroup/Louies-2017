@@ -50,11 +50,11 @@ include "header.php";
 
     <div class="column">
       <h3>03. GIVE NIGHT OF</h3>
-      <h2>THE RAFFLE</h2>
-      Buy raffle tickets the day of the event for the chance to win a wide variety of great prizes at the post-race party.<br>
+      <h2>THE BUCKET</h2>
+      Donate to Children’s and receive drawing tickets the day of the event for the chance to win a wide variety of great prizes at the post-race celebration.<br>
       <br>
 
-      <h4>RAFFLE DONATIONS:</h4> If you are interested in donating an item for the Raffle &amp; Silent Auction and/or have questions please message us at <?php email("contactus@louieslast.org"); ?>.
+      <h4>DRAWING DONATIONS:</h4> If you are interested in donating an item for the Bucket Drawing and/or have questions please message us at <?php email("contactus@louieslast.org"); ?>.
     </div>
   </div>
 </div>
