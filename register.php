@@ -8,7 +8,7 @@ include "header.php";
     <?php if (isset($GLOBALS['comingsoon'])) { ?>
     <h2><?php echo date("Y", $GLOBALS['eventdate']); ?> Registration Coming Soon</h2>
     <?php } else { ?>
-    <h3>Register now through <?php echo date("F j, Y", $GLOBALS['eventdate']-86000); ?></h3>
+    <h3>Register now through <?php echo date("F j, Y", $GLOBALS['razoo']); ?></h3>
 
     <h2>Enter The Race</h2>
 
@@ -16,7 +16,7 @@ include "header.php";
       To register for Louies <?php echo $GLOBALS['eventnum']; ?> Last Regatta on <?php echo date("F j, Y", $GLOBALS['eventdate']); ?> visit the online registration page provided by The US Sailing Regatta Network and fill in all the required fields (have your credit card handy).  All proceeds go to Children's Hospital of Wisconsin.
     </div>
 
-    <a href="https://www.regattanetwork.com/clubmgmt/applet_registration_form.php?regatta_id=14867" class="button hollow">REGISTER NOW</a>
+    <a href="https://www.regattanetwork.com/clubmgmt/applet_registration_form.php?regatta_id=17396" class="button hollow">REGISTER NOW</a>
     <?php } ?>
   </div>
 </div>
@@ -25,8 +25,8 @@ include "header.php";
   <div class="site-width">
     <h4>IMPORTANT DOCUMENTS <i class="fg fg-arrow-right"></i></h4>
 
-    <a href="pdf/2017_Notice_of_Race.pdf">2017 Notice of Race (NOR)</a>
-    <a href="pdf/2017_Sailing_Instructions.pdf">2017 Sailing Instructions</a>
+    <a href="pdf/2018_Notice_of_Race.pdf">2018 Notice of Race (NOR)</a>
+    <!-- <a href="pdf/2017_Sailing_Instructions.pdf">2017 Sailing Instructions</a> -->
   </div>
 </div>
 

@@ -2,9 +2,9 @@
 $GLOBALS['eventdate'] = strtotime('22 September 2018 12:00');
 $GLOBALS['eventnum'] = "20<sup>th</sup>";
 $GLOBALS['kickoff'] = strtotime('14 June 2018 17:30');
-$GLOBALS['skippers'] = strtotime('21 September 2018 18:00');
-$GLOBALS['razoo'] = strtotime('21 September 2018 15:00');
-$GLOBALS['comingsoon'] = "yes";
+$GLOBALS['skippers'] = strtotime('21 September 2018 19:00');
+$GLOBALS['razoo'] = strtotime('20 September 2018 19:00');
+// $GLOBALS['comingsoon'] = "yes";
 
 if (!isset($TopDir)) $TopDir = "";
 
