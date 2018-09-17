@@ -29,6 +29,10 @@ include "header.php";
   </div>
 </div>
 
+<div class="hat">
+  <a href="http://louieslast.on-timetees.com">GET YOUR LOUIE'S COMMEMORATIVE HAT HERE</a>
+</div>
+
 <div class="home-dates">
   <div class="site-width">
     <div class="one-fourth">

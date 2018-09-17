@@ -687,6 +687,19 @@ A.button.hollow:hover:after {
   color: #0066FF;
 }
 
+.hat {
+  padding: 1em;
+  background: #0066FF;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 125%;
+  line-height: 1em;
+}
+
+.hat A:link, .hat A:visited { color: #FFFFFF; }
+.hat A:hover, .hat A:active { color: #9D1C30; }
+
 .home-dates {
   padding: 0.5em 0;
   background: #9D1C30;
