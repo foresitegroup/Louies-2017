@@ -31,6 +31,7 @@ A:link, A:visited {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  outline: 0;
 }
 
 A:hover, A:active {
@@ -1470,7 +1471,6 @@ A.button.hollow:hover:after {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 3em;
 }
 
 .results-slider H3 {
@@ -1483,6 +1483,8 @@ A.button.hollow:hover:after {
   letter-spacing: 0.1em;
   text-decoration: underline;
 }
+
+.results-slider H3:first-of-type { margin-top: 1.4em; }
 
 .contact-banner {
   padding: 4em 0 8em;

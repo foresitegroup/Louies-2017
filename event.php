@@ -223,6 +223,35 @@ include "header.php";
       <script type="text/javascript" src="inc/slick/slick.init.results-slider.js"></script>
       <div class="results-slider">
         <div>
+          <h2>2018</h2>
+          <a href="pdf/2018_Results.pdf" class="arrow">2018 Complete Results</a>
+
+          <h3>Solomon Juneau</h3>
+          1st - Dale Smirl - Defiance<br>
+          2nd - Tom Peterson - Widespread Panic<br>
+          3rd - Whitney Kent - Joelen<br>
+          <br>
+
+          <h3>Love Rock</h3>
+          1st - Tom Wolfrum - Lazier<br>
+          2nd - Tom Molinski - Typhon Mary<br>
+          3rd - Patrick Pedergast - Aztec<br>
+          <em>[2nd and 3rd tie were settled by a coin toss]</em><br>
+          <br>
+
+          <h3>Cutlass - Most Uniquely Attired Crew</h3>
+          Timberwolf, Terry and Patti McMahon<br>
+          <br>
+
+          <h3>Maggie Bersch Memorial Cup for Top Fundraiser</h3>
+          Cayenne, Adam Brotz<br>
+          <br>
+
+          <h3>Debbia Grassroots Cup for Highest Number of Individual Donors</h3>
+          Debbia/Sailing Alliance, Mike Kenny
+        </div>
+
+        <div>
           <h2>2017</h2>
           <a href="pdf/2017_Results.pdf" class="arrow">2017 Complete Results</a>
 
