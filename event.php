@@ -229,13 +229,13 @@ include "header.php";
           <h3>Solomon Juneau</h3>
           1st - Dale Smirl - Defiance<br>
           2nd - Tom Peterson - Widespread Panic<br>
-          3rd - Whitney Kent - Joelen<br>
+          3rd - Rob Hasselkus - Berserkir<br>
           <br>
 
           <h3>Love Rock</h3>
           1st - Tom Wolfrum - Lazier<br>
-          2nd - Tom Molinski - Typhon Mary<br>
-          3rd - Patrick Pedergast - Aztec<br>
+          2nd - Kellen Muldoon - Borealis<br>
+          3rd - Tom Molinski - Typhon Mary<br>
           <em>[2nd and 3rd tie were settled by a coin toss]</em><br>
           <br>
 
