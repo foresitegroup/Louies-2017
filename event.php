@@ -111,7 +111,7 @@ include "header.php";
       Louie's Last Regatta has has gained national attention being named one of the top ten sailing events in the county and raising over $1 million for the Children's Hospital of Wisconsin.<br>
       <br>
 
-      <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
+      <a href="https://www.youtube.com/watch?v=QJzoitq-iu0" class="swipebox-video">PLAY VIDEO</a>
     </div>
   </div>
 </div>

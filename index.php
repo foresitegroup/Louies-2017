@@ -23,7 +23,7 @@ include "header.php";
     <i class="fg fg-waves"></i>
 
     <div class="video-header-buttons">
-      <a href="https://vimeo.com/192156399" class="swipebox-video">PLAY VIDEO</a>
+      <a href="https://www.youtube.com/watch?v=QJzoitq-iu0" class="swipebox-video">PLAY VIDEO</a>
       <a href="register.php" class="button">REGISTER NOW</a>
     </div>
   </div>
